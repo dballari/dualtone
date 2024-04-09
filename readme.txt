@@ -29,3 +29,16 @@ This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
+
+Inter Font
+Copyright 2020 The Inter Project Authors (https://github.com/rsms/inter) 
+This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL 
+License URL: http://scripts.sil.org/OFL 
+Source: https://rsms.me/
+-- End of Inter Font credits --
+
+Error 404 image
+marked as being the public domain
+https://www.flickr.com/photos/116071498@N08/38683650625
+https://openverse.org/image/8db4d0b1-cfb9-4f65-ae6c-119e2ed4ad92?q=disaster
+-- End of image credits --

@@ -14,3 +14,13 @@ Text Domain: dualtone
 Tags: blog, two-columns, left-sidebar, accessibility-ready, block-patterns, block-styles, editor-style, full-site-editing, style-variations, template-editing, theme-options, translation-ready, 
 */
 
+html {
+    scroll-behavior: smooth;
+}
+
+/* Struture
+--------------------------------------- */
+.wp-site-blocks {
+    max-width: var(--wp--custom--width--max-width);
+    margin: 0 auto;
+}
