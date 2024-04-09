@@ -157,7 +157,7 @@
 				"css": " & .wp-block-post-excerpt__more-link {font-weight: var(--wp--custom--font-weight--bolder);} & .wp-block-post-excerpt__more-link:hover {text-decoration: none;}"
 			},
 			"core/separator": {
-				"css": "border: 2px solid;"
+				"css": "border: 2px solid; color: var(--wp--preset--color--contrast-2);"
 			}
 		},
 		"elements": {
@@ -235,6 +235,11 @@
 		}
 	},
 	"templateParts": [
+		{
+			"area": "topbar",
+			"name": "topbar",
+			"title": "Topbar"
+		},
 		{
 			"area": "header",
 			"name": "header",

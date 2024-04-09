@@ -6,7 +6,7 @@ $areas = [
         'area_tag' => 'div',
         'label' => __( 'Topbar', 'dualtone' ),
         'description' => __( 'Area on top of the sidebar content columns', 'dualtone' ),
-        'icon' => 'sidebar'
+        'icon' => 'header'
     ],
     [
         'area' => 'sidebar-header',

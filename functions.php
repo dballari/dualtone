@@ -34,7 +34,7 @@ $theme = new DualToneTheme(
         //'variations' => $variations,
         // array of block style variations leave empty [] if none are added
 
-        //'areas' => $areas,
+        'areas' => $areas,
         // Custom template areas to register
         
         //'pattern_categories' => $categories,
