@@ -18,7 +18,7 @@ $theme = new DualToneTheme(
         // array of theme supports for instance ['wp-block-styles']
         // do not include the feature 'editor-style' here (see editor-style parameter)
         
-        //'custom_block_styles_folder' => '/assets/css',
+        'custom_block_styles_folder' => '/assets/css',
         // folder for custom block styles leave '' if none are added
         
         'style' => '/style.css',
@@ -27,11 +27,11 @@ $theme = new DualToneTheme(
         //'scripts' => $scripts,
         // array $src $deps leave empty [] if no script needs to be enqueued
         
-        //'editor_style' => 'style.css',
+        'editor_style' => 'style.css',
         // editor style leave '' if no style needs to be enqueued in the editor
         // if an style is added then the feature 'editor-style' is added here (not in theme_supports)
         
-        //'variations' => $variations,
+        'variations' => $variations,
         // array of block style variations leave empty [] if none are added
 
         'areas' => $areas,

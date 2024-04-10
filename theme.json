@@ -57,6 +57,9 @@
 			]
 		},
 		"custom": {
+			"fluid": {
+				"16-67": "clamp(1rem, -4.9632rem + 12.201vi, 4.1875rem)"
+			},
 			"fontWeight": {
 				"bold": "500",
 				"bolder": "680",

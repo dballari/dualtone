@@ -1,0 +1,13 @@
+/* DualTone sidebar content column layout style
+----------------------------------------------- */
+body .is-style-sidebar-content.is-layout-flex .is-style-sidebar-left,
+body .is-style-sidebar-content.is-layout-flex .is-style-content-right {
+    padding-right: var(--wp--custom--fluid--16-67);
+    padding-left: var(--wp--custom--fluid--16-67);
+}
+
+@media (min-width: 782px) {
+    .is-style-sidebar-content .is-style-sidebar-left {
+        border-right: 0.00625rem solid;
+    }
+}
