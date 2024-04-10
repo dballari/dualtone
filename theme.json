@@ -153,6 +153,9 @@
 			"core/buttons": {
 				"css": " & .wp-block-button__link {border-radius: 0px; background-color: var(--wp--preset--color--contrast);} & .is-style-contrast-2 .wp-block-button__link {background-color: var(--wp--preset--color--contrast-2);}"
 			},
+			"core/cover": {
+				"css": " &.is-style-variable-min-height {min-height: clamp(28.75rem, 43.913rem + -19.5652vw, 40rem);}"
+			},
 			"core/navigation": {
 				"css": "& button {border: 1px solid; padding: 4px;}"
 			},
