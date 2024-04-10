@@ -9,13 +9,6 @@ $areas = [
         'icon' => 'header'
     ],
     [
-        'area' => 'sidebar-header',
-        'area_tag' => 'header',
-        'label' => __( 'Sidebar Header', 'dualtone' ),
-        'description' => __( 'Place here the site header and the main navigation when you have a template with sidebar content layout', 'dualtone' ),
-        'icon' => 'sidebar'
-    ],
-    [
         'area' => 'sidebar',
         'area_tag' => 'section',
         'label' => __( 'Sidebar', 'dualtone' ),
@@ -31,16 +24,16 @@ $areas = [
     ],
     [
         'area' => 'loop',
-        'area_tag' => 'section',
+        'area_tag' => 'main',
         'label' => __( 'Loop', 'dualtone' ),
-        'description' => __( 'Area with a loop of posts', 'dualtone' ),
+        'description' => __( 'Area with a loop of posts in the index or an archive tempate', 'dualtone' ),
         'icon' => 'sidebar'
     ],
     [
         'area' => 'postmeta',
         'area_tag' => 'section',
         'label' => __( 'Postmeta', 'dualtone' ),
-        'description' => __( 'Area that will generally include the data a post has been published and the author', 'dualtone' ),
+        'description' => __( 'Area that will generally include the data a post has been published and the author of the post', 'dualtone' ),
         'icon' => 'sidebar'
     ],
     [
