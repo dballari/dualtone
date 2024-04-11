@@ -24,3 +24,7 @@ html {
     max-width: var(--wp--custom--width--max-width);
     margin: 0 auto;
 }
+
+body.theme-dev-mode .wp-site-blocks .wp-block-template-part {
+    border: 1px solid;
+}

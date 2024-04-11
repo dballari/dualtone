@@ -55,7 +55,6 @@ if( is_admin() ) {
 }
 
 //add_action( 'init', __NAMESPACE__ . '\get_all_registered_blocks', 999 );
-
 function get_all_registered_blocks() {
 	WP_Block_Type_Registry::get_instance()->unregister( 'core/legacy-widget' );
     echo '<pre>';
@@ -64,3 +63,11 @@ function get_all_registered_blocks() {
     die();
 }
 
+if(WP_DEVELOPMENT_MODE == 'theme') {
+    add_filter( 'body_class','theme_dev_mode_class' );
+}
+
+function theme_dev_mode_class( $classes ) {
+    $classes[] = 'theme-dev-mode';
+    return $classes;
+}
