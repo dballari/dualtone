@@ -247,14 +247,49 @@
 			"title": "Topbar"
 		},
 		{
+			"area": "sidebar",
+			"name": "sidebar",
+			"title": "Sidebar"
+		},
+		{
 			"area": "header",
 			"name": "header",
 			"title": "Header"
 		},
 		{
+			"area": "title",
+			"name": "title",
+			"title": "Title"
+		},
+		{
+			"area": "loop",
+			"name": "loop",
+			"title": "Loop"
+		},
+		{
+			"area": "postcontent",
+			"name": "postcontent",
+			"title": "Post content"
+		},
+		{
+			"area": "afterpostcontent",
+			"name": "afterpostcontent",
+			"title": "After post content"
+		},
+		{
+			"area": "comments",
+			"name": "comments",
+			"title": "Comments"
+		},
+		{
 			"area": "footer",
 			"name": "footer",
 			"title": "Footer"
+		},
+		{
+			"area": "message",
+			"name": "error-404",
+			"title": "Error 404"
 		}
 	],
 	"version": 2

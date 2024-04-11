@@ -30,10 +30,17 @@ $areas = [
         'icon' => 'sidebar'
     ],
     [
-        'area' => 'postmeta',
+        'area' => 'postcontent',
         'area_tag' => 'section',
-        'label' => __( 'Postmeta', 'dualtone' ),
-        'description' => __( 'Area that will generally include the data a post has been published and the author of the post', 'dualtone' ),
+        'label' => __( 'Post content', 'dualtone' ),
+        'description' => __( 'Area that will generally include title, date, author and post content', 'dualtone' ),
+        'icon' => 'sidebar'
+    ],
+    [
+        'area' => 'afterpostcontent',
+        'area_tag' => 'section',
+        'label' => __( 'After post content', 'dualtone' ),
+        'description' => __( 'Area that will generally include the taxonomies and the previous & next navigation links', 'dualtone' ),
         'icon' => 'sidebar'
     ],
     [
@@ -41,6 +48,20 @@ $areas = [
         'area_tag' => 'section',
         'label' => __( 'Comments', 'dualtone' ),
         'description' => __( 'Area with the comments of a post', 'dualtone' ),
+        'icon' => 'sidebar'
+    ],
+    [
+        'area' => 'pagecontent',
+        'area_tag' => 'section',
+        'label' => __( 'Page content', 'dualtone' ),
+        'description' => __( 'Area that will generally include title and page content', 'dualtone' ),
+        'icon' => 'sidebar'
+    ],
+    [
+        'area' => 'message',
+        'area_tag' => 'section',
+        'label' => __( 'Message', 'dualtone' ),
+        'description' => __( 'Area where a message may be displayed, like the Error 404 message', 'dualtone' ),
         'icon' => 'sidebar'
     ]
 ];
