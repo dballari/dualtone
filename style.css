@@ -14,17 +14,44 @@ Text Domain: dualtone
 Tags: blog, two-columns, left-sidebar, accessibility-ready, block-patterns, block-styles, editor-style, full-site-editing, style-variations, template-editing, theme-options, translation-ready, 
 */
 
+/* Thresholds in Gutenberg
+mobile: 480px
+small:  600px
+medium: 782px
+large:  960px
+wide: 1280px
+huge: 1440px
+------------------------------------ */
+
+/* Widths definitions
+width-0:    w < 480px
+width-1:    480px <  w < 600px
+width-2:    600px <  w < 782px
+width-3:    782px <  w < 960px
+width-4:    960px <  w < 1280px
+width-5:    1280px <  w < 1440px
+width-6:    1440px <  w 
+------------------------------------ */
+
+/* Classes that use width definitions
+.is-border-width-2
+------------------------------------ */
+
 html {
     scroll-behavior: smooth;
 }
 
 /* Struture
 --------------------------------------- */
+body {
+    background-color: #eee;
+}
 .wp-site-blocks {
+    background-color: var(--wp--preset--color--base);
     max-width: var(--wp--custom--width--max-width);
     margin: 0 auto;
 }
 
-body.theme-dev-mode .wp-site-blocks .wp-block-template-part {
-    border: 1px solid;
+body.highlight-parts .wp-site-blocks .wp-block-template-part {
+    border: 1px solid #aaa;
 }

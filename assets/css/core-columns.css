@@ -1,7 +1,15 @@
 /* DualTone sidebar content column layout style
 ----------------------------------------------- */
-body .is-style-sidebar-content.is-layout-flex .is-style-sidebar-left,
-body .is-style-sidebar-content.is-layout-flex .is-style-content-right {
+.is-style-sidebar-content.is-layout-flex .is-style-sidebar-left {
+    flex-basis: var(--wp--custom--width--sidebar-flex-basis);
+}
+
+.is-style-sidebar-content.is-layout-flex .is-style-content-right {
+    flex-basis: var(--wp--custom--width--content-flex-basis);
+}
+
+.is-style-sidebar-content.is-layout-flex .is-style-sidebar-left,
+.is-style-sidebar-content.is-layout-flex .is-style-content-right {
     padding-right: var(--wp--custom--fluid--16-67);
     padding-left: var(--wp--custom--fluid--16-67);
 }

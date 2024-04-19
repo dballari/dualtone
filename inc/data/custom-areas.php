@@ -11,7 +11,7 @@ $areas = [
     [
         'area' => 'sidebar',
         'area_tag' => 'section',
-        'label' => __( 'Sidebar', 'dualtone' ),
+        'label' => __( 'Sidebar content', 'dualtone' ),
         'description' => __( 'Additional content of the sidebar', 'dualtone' ),
         'icon' => 'sidebar'
     ],
@@ -27,6 +27,27 @@ $areas = [
         'area_tag' => 'main',
         'label' => __( 'Loop', 'dualtone' ),
         'description' => __( 'Area with a loop of posts in the index or an archive tempate', 'dualtone' ),
+        'icon' => 'sidebar'
+    ],
+    [
+        'area' => 'archive-title',
+        'area_tag' => 'header',
+        'label' => __( 'Archive title', 'dualtone' ),
+        'description' => __( 'Area with the title and the description of the archive', 'dualtone' ),
+        'icon' => 'sidebar'
+    ],
+    [
+        'area' => 'author-title',
+        'area_tag' => 'header',
+        'label' => __( 'Author title', 'dualtone' ),
+        'description' => __( 'Area with the title of the author archive page', 'dualtone' ),
+        'icon' => 'sidebar'
+    ],
+    [
+        'area' => 'search-title',
+        'area_tag' => 'header',
+        'label' => __( 'Search title', 'dualtone' ),
+        'description' => __( 'Area with the title of the search archive page', 'dualtone' ),
         'icon' => 'sidebar'
     ],
     [

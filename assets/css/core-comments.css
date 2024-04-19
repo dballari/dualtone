@@ -1,0 +1,5 @@
+/* DualTone comments block customizations
+------------------------------------------- */
+.wp-block-comments #respond .wp-block-button {
+    margin-bottom: 0;
+}

@@ -75,7 +75,9 @@ class DualToneSettingsPage
             <p><?php _e( 'Thank\'s for using this theme. If you are and advanced site editor user, you may want to take a look at the following theme options.', 'dualtone' ); ?></p>
 
             <form method="post" action="options.php">
-            <input type="hidden" name="dualtone_theme_options[curated_patterns_slugs]" value="<?php isset( $this->options['curated_patterns_slugs'] )  ? print($this->options['curated_patterns_slugs']) : ''; ?>">
+            <input type="hidden" 
+                name="dualtone_theme_options[curated_patterns_slugs]" 
+                value="<?php isset( $this->options['curated_patterns_slugs'] )  ? print($this->options['curated_patterns_slugs']) : ''; ?>">
             <?php
                 // This prints out all hidden setting fields
                 settings_fields( 'dualtone_group' );

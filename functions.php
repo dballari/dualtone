@@ -24,7 +24,7 @@ $theme = new DualToneTheme(
         'style' => '/style.css',
         // theme style, default value is ''
         
-        //'scripts' => $scripts,
+        'scripts' => $scripts,
         // array $src $deps leave empty [] if no script needs to be enqueued
         
         'editor_style' => 'style.css',
@@ -63,11 +63,11 @@ function get_all_registered_blocks() {
     die();
 }
 
-if(WP_DEVELOPMENT_MODE == 'theme') {
-    add_filter( 'body_class','theme_dev_mode_class' );
+if(WP_DEVELOPMENT_MODE == 'theme' && DT_HIGHLIGHT_PARTS) {
+    add_filter( 'body_class','highlight_parts' );
 }
 
-function theme_dev_mode_class( $classes ) {
-    $classes[] = 'theme-dev-mode';
+function highlight_parts( $classes ) {
+    $classes[] = 'highlight-parts';
     return $classes;
 }

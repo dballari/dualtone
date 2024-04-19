@@ -1,0 +1,7 @@
+/* DualTone pagination style
+----------------------------------------------- */
+.wp-block-query-pagination> .wp-block-query-pagination-previous,
+.wp-block-query-pagination> .wp-block-query-pagination-next,
+.wp-block-query-pagination> .wp-block-query-pagination-numbers {
+    margin-bottom: 0;
+}

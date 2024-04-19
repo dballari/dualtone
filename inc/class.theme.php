@@ -142,7 +142,7 @@ if( ! class_exists( 'DualToneTheme' ) ) {
                     foreach($theme_supports as $feature) {
                         if($feature != 'editor-styles') {
                             add_theme_support($feature);
-                    }
+                        }
                     }
                 });
             }
