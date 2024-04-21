@@ -71,3 +71,10 @@ function highlight_parts( $classes ) {
     $classes[] = 'highlight-parts';
     return $classes;
 }
+
+add_filter( 'option_blogdescription', function( $value ){
+    if ( $value ) {
+        $value = str_replace('for creators', '<span class="dt-emphasise">for creators</span>', $value);
+    }
+    return $value;
+}, 10, 1);

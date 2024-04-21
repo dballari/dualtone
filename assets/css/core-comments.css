@@ -3,3 +3,7 @@
 .wp-block-comments #respond .wp-block-button {
     margin-bottom: 0;
 }
+
+.wp-block-comments .comment-reply-title {
+    margin-top: 0;
+}
