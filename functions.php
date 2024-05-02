@@ -56,9 +56,17 @@ if( is_admin() ) {
 
 //add_action( 'init', __NAMESPACE__ . '\get_all_registered_blocks', 999 );
 function get_all_registered_blocks() {
-	WP_Block_Type_Registry::get_instance()->unregister( 'core/legacy-widget' );
+	//WP_Block_Type_Registry::get_instance()->unregister( 'core/legacy-widget' );
     echo '<pre>';
-    var_dump(WP_Block_Type_Registry::get_instance()->get_all_registered());
+    foreach( WP_Block_Type_Registry::get_instance()->get_all_registered() as $block) {
+        echo $block->name;
+        if ( $block->styles ) {
+            foreach ( $block->styles as $style ) {
+                echo ' - ' . $style['name'];
+            }
+        }
+        echo '<br />';
+    }
     echo '</pre>';
     die();
 }
@@ -73,7 +81,7 @@ function highlight_parts( $classes ) {
 }
 
 add_filter( 'option_blogdescription', function( $value ){
-    if ( $value ) {
+    if ( false && $value ) {
         $value = str_replace('for creators', '<span class="dt-emphasise">for creators</span>', $value);
     }
     return $value;
