@@ -18,3 +18,9 @@
         border-right: 0.00625rem solid;
     }
 }
+
+@media screen and (width < 782px) {
+    .is-style-sidebar-content .is-style-content-right {
+        margin-block-start: var(--wp--preset--spacing--30);
+    }
+}

@@ -8,7 +8,7 @@
 }
 @media (min-width: 782px) {
     ul.is-style-sidebar-navigation.items-justified-center li.wp-block-navigation-item,
-    ul.is-style-sidebar-navigation.items-justified-center ul.wp-block-social-links li.wp-block-social-link {
+    KOul.is-style-sidebar-navigation.items-justified-center ul.wp-block-social-links li.wp-block-social-link {
         width: 100%;
     }
     .is-border-width-2 {

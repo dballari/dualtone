@@ -71,6 +71,15 @@ function get_all_registered_blocks() {
     die();
 }
 
+/**
+ * Adds dualtine body class to differentiate frontend
+ * Used in Structure section of style.css
+ */
+add_filter( 'body_class', function($classes) {
+    $classes[] = 'dualtone';
+    return $classes;
+} );
+
 if(WP_DEVELOPMENT_MODE == 'theme' && DT_HIGHLIGHT_PARTS) {
     add_filter( 'body_class','highlight_parts' );
 }

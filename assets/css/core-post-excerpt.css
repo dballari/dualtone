@@ -1,5 +1,13 @@
 /* DualTone post excerpt customizations
 ------------------------------------------- */
-.kowp-block-post-excerpt p {
-    margin-right: 5rem;
+li.wp-block-post:last-of-type .wp-block-post-excerpt {
+    margin-bottom: 0;
+}
+
+.is-transformed-right a.wp-block-post-excerpt__more-link {
+    transition: transform 0.3s ease;
+}
+
+.is-transformed-right a.wp-block-post-excerpt__more-link:hover {
+    transform: translateX( var( --wp--preset--spacing--050 ) );
 }
