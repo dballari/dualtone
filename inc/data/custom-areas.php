@@ -81,8 +81,8 @@ $areas = [
     [
         'area' => 'message',
         'area_tag' => 'section',
-        'label' => __( 'Message', 'dualtone' ),
-        'description' => __( 'Area where a message may be displayed, like the Error 404 message', 'dualtone' ),
+        'label' => __( 'Error 404 Message', 'dualtone' ),
+        'description' => __( 'Area where the Error 404 message is displayed', 'dualtone' ),
         'icon' => 'sidebar'
     ]
 ];
