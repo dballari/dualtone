@@ -54,23 +54,6 @@ if( is_admin() ) {
     );
 }
 
-//add_action( 'init', __NAMESPACE__ . '\get_all_registered_blocks', 999 );
-function get_all_registered_blocks() {
-	//WP_Block_Type_Registry::get_instance()->unregister( 'core/legacy-widget' );
-    echo '<pre>';
-    foreach( WP_Block_Type_Registry::get_instance()->get_all_registered() as $block) {
-        echo $block->name;
-        if ( $block->styles ) {
-            foreach ( $block->styles as $style ) {
-                echo ' - ' . $style['name'];
-            }
-        }
-        echo '<br />';
-    }
-    echo '</pre>';
-    die();
-}
-
 /**
  * Adds dualtine body class to differentiate frontend
  * Used in Structure section of style.css

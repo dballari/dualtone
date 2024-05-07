@@ -104,11 +104,12 @@ if( ! class_exists( 'DualToneTheme' ) ) {
             $this->options = get_option($this->textdomain.'_theme_options');
             if(!true) {
                 echo '<pre>';
-                var_dump($this);
+                var_dump($this->options);
                 echo '</pre>';
                 die();
             }
             if(!$this->options) {
+                $this->options = [];
                 $this->options['unregister_theme_patterns'] = '0';
                 $this->options['remote_patterns'] = 'none';
             }
@@ -235,17 +236,19 @@ if( ! class_exists( 'DualToneTheme' ) ) {
          */
         public function addBlockStyleVariations(array $variations) {
             if(!empty($variations)) {
-                foreach($variations as $block => $block_variations) {
-                    foreach($block_variations as $name => $label) {
-                        register_block_style( 
-                            $block,
-                            [
-                                'name' => $name,
-                                'label' => $label
-                            ]
-                        );
+                $this->addAction('init', function() use ($variations) {
+                    foreach($variations as $block => $block_variations) {
+                        foreach($block_variations as $name => $label) {
+                            register_block_style( 
+                                $block,
+                                [
+                                    'name' => $name,
+                                    'label' => $label
+                                ]
+                            );
+                        }
                     }
-                }
+                }, 30);
             }
         }
 
