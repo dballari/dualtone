@@ -1,67 +1,57 @@
 <?php
+/**
+ * This file adds functions to the DualTone WordPress theme.
+ *
+ * @package DualTone
+ * @author  David Ballarin Prunera
+ * @license GNU General Public License v2 or later
+ * @link    https://ballarinconsulting.com/dualtone
+ */
 
-require_once 'inc/class.theme-settings.php';
-require_once 'inc/class.theme.php';
+/**
+ * Include required files from inc folder
+ */
+require_once 'inc/class-dualtone-theme.php';
+require_once 'inc/class-dualtone-settings.php';
 require_once 'inc/data/block-style-variations.php';
-require_once 'inc/data/custom-areas.php';
+require_once 'inc/data/custom-template-areas.php';
 require_once 'inc/data/scripts.php';
 require_once 'inc/data/theme-pattern-categories.php';
 
+/**
+ * Textdomain to be used
+ */
 $textdomain = 'dualtone';
 
-$theme = new DualToneTheme(
+/**
+ * Creates an instance of the DualTone_Theme class
+ */
+$dualtone_theme = new DualTone_Theme(
     [
-        'textdomain' => $textdomain, 
-        // text domain
-        
-        'theme_supports' => [],
-        // array of theme supports for instance ['wp-block-styles']
-        // do not include the feature 'editor-style' here (see editor-style parameter)
-        
-        'custom_block_styles_folder' => '/assets/css',
-        // folder for custom block styles leave '' if none are added
-        
-        'style' => '/style.css',
-        // theme style, default value is ''
-        
-        'scripts' => $scripts,
-        // array $src $deps leave empty [] if no script needs to be enqueued
-        
+        'textdomain' => '$textdomain',
+        'style' => 'style.css',
         'editor_style' => 'style.css',
-        // editor style leave '' if no style needs to be enqueued in the editor
-        // if an style is added then the feature 'editor-style' is added here (not in theme_supports)
-        
+        'scripts' => $scripts,
         'variations' => $variations,
-        // array of block style variations leave empty [] if none are added
-
         'areas' => $areas,
-        // Custom template areas to register
-        
-        //'pattern_categories' => $categories,
-        // array of pattern categories to register leave empty [] if none are added
-        
-        //'excerpt_more' => '',
-        // modifies excerpt more or removes it if left empty '', default value ''
-        
-        //'load_text_domain' => false
-        // wheater or not should load textdomain
+        'pattern_categories' => $categories
     ]
-);
-
-if( is_admin() ) {
-    $settings_page = new DualToneSettingsPage(
-        $textdomain
     );
-}
 
 /**
- * Adds dualtine body class to differentiate frontend
- * Used in Structure section of style.css
+ * Adds the theme settings page
  */
-add_filter( 'body_class', function($classes) {
-    $classes[] = 'dualtone';
-    return $classes;
-} );
+if( is_admin() ) {
+    $settings_page = new DualTone_Settings(
+        $textdomain
+    );
+    if( isset( $_GET['page'] ) && $_GET['page'] == 'dualtone' ) {
+        add_filter( 'admin_footer_text', function($text) use ( $textdomain ) {
+            return '<span id="footer-thankyou">' . $text . 
+            __( ' And thank you for using the <a href="https://ballarinconsulting.com/dualtone">DualTone</a> theme.</span>', $textdomain );
+        }, 10, 1 );
+    }
+}
 
 if(WP_DEVELOPMENT_MODE == 'theme' && DT_HIGHLIGHT_PARTS) {
     add_filter( 'body_class','highlight_parts' );
@@ -71,10 +61,3 @@ function highlight_parts( $classes ) {
     $classes[] = 'highlight-parts';
     return $classes;
 }
-
-add_filter( 'option_blogdescription', function( $value ){
-    if ( false && $value ) {
-        $value = str_replace('for creators', '<span class="dt-emphasise">for creators</span>', $value);
-    }
-    return $value;
-}, 10, 1);
