@@ -30,7 +30,7 @@ $dualtone_theme = new DualTone_Theme(
     [
         'textdomain' => '$textdomain',
         'style' => 'style.css',
-        'editor_style' => 'style.css',
+        'editor_style' => 'style-editor.css',
         'scripts' => $scripts,
         'variations' => $variations,
         'areas' => $areas,

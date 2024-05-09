@@ -1,0 +1,7 @@
+/* DualTone editor style
+------------------------------------- */
+@media (min-width: 782px) {
+    .editor-styles-wrapper .is-style-sidebar-navigation .wp-block-navigation-item {
+        width: 100%;
+    }
+}

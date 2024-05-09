@@ -128,6 +128,7 @@ if ( ! class_exists( 'DualTone_Theme' ) )
                 die( 'texdomain must be a non empty string' );
             }
             
+
             /**
              * Setting up the theme by calling action hooks or setting filters
              */
@@ -258,6 +259,7 @@ if ( ! class_exists( 'DualTone_Theme' ) )
 
         /**
          * Adds support for editor styles and then adds a css in the editor
+         * https://developer.wordpress.org/reference/functions/add_editor_style/
          */
         public function addEditorStyle( $editor_style ) {
             if ( $editor_style != '' ) {

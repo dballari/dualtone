@@ -6,12 +6,13 @@
         padding: 8px;
     }
 }
+
 @media (min-width: 782px) {
-    ul.is-style-sidebar-navigation.items-justified-center li.wp-block-navigation-item,
-    KOul.is-style-sidebar-navigation.items-justified-center ul.wp-block-social-links li.wp-block-social-link {
+    .is-style-sidebar-navigation .wp-block-navigation-item {
         width: 100%;
     }
     .is-border-width-2 {
         border: none;
+        padding: 0;
     }
 }
