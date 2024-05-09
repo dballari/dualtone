@@ -12,7 +12,7 @@ A WordPress theme based on user patterns—for creators
 
 == Changelog ==
 
-= 1.0.0 =
+= 0.1.1 =
 * Initial release
 
 == Copyright ==
