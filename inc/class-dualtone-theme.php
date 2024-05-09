@@ -20,8 +20,8 @@ if ( ! class_exists( 'DualTone_Theme' ) )
         public $defaults = [
             'theme_supports' => [],
             'custom_block_styles_folder' => '/assets/css',
-            'style' => '',
-            'editor_style' => '',
+            'styles' => [],
+            'editor_styles' => [],
             'scripts' => [],
             'variations' => [],
             'areas' => [],
@@ -61,16 +61,18 @@ if ( ! class_exists( 'DualTone_Theme' ) )
 
 
         /**
-         * theme style file to enqueue
+         * theme styles files to enqueue
+         * array
          */
-        public $style;
+        public $styles;
 
 
         /**
-         * editor style leave '' if no style needs to be enqueued in the editor
-         * if an style is added then the feature 'editor-style' is added
+         * editor styles
+         * if not empty then the feature 'editor-style' is added
+         * array
          */
-        public $editor_style;
+        public $editor_styles;
 
 
         /**
@@ -134,8 +136,8 @@ if ( ! class_exists( 'DualTone_Theme' ) )
              */
             $this->addThemeSupports( $this->theme_supports );
             $this->addCustomBlockStyles( $this->custom_block_styles_folder );
-            $this->addStyle( $this->textdomain, $this->style );
-            $this->addEditorStyle( $this->editor_style );
+            $this->addStyles( $this->textdomain, $this->styles );
+            $this->addEditorStyles( $this->editor_styles );
             $this->addScripts( $this->textdomain, $this->scripts );
             $this->addBlockStyleVariations( $this->variations );
             $this->addPatternCategories( $this->pattern_categories );
@@ -176,8 +178,8 @@ if ( ! class_exists( 'DualTone_Theme' ) )
             $theme_params = wp_parse_args( $theme_params, $this->defaults );
 
             $this->theme_supports = $theme_params['theme_supports'];
-            $this->style = $theme_params['style'];
-            $this->editor_style = $theme_params['editor_style'];
+            $this->styles = $theme_params['styles'];
+            $this->editor_styles = $theme_params['editor_styles'];
             $this->scripts = $theme_params['scripts'];
             $this->variations = $theme_params['variations'];
             $this->custom_block_styles_folder = $theme_params['custom_block_styles_folder'];
@@ -243,16 +245,18 @@ if ( ! class_exists( 'DualTone_Theme' ) )
         /**
          * Enqueues css files
          */
-        public function addStyle( $textdomain, $style ) {
-            if ( $style != '' ) {
-                $this->actionEnqueueScripts( function() use ( $textdomain, $style ) {
-                    wp_enqueue_style(
-                        sanitize_title($textdomain),
-                        get_template_directory_uri() . '/' . $style,
-                        array(),
-                        wp_get_theme()->get( 'Version' )
-                    );
-                });
+        public function addStyles( $textdomain, $styles ) {
+            if ( ! empty( $styles ) ) {
+                foreach ( $styles as $style ) {
+                    $this->actionEnqueueScripts( function() use ( $textdomain, $style ) {
+                        wp_enqueue_style(
+                            sanitize_title($textdomain) . '-' . basename( $style, '.css' ),
+                            get_template_directory_uri() . '/' . $style,
+                            array(),
+                            wp_get_theme()->get( 'Version' )
+                        );
+                    });
+                }
             }
         }
 
@@ -261,12 +265,14 @@ if ( ! class_exists( 'DualTone_Theme' ) )
          * Adds support for editor styles and then adds a css in the editor
          * https://developer.wordpress.org/reference/functions/add_editor_style/
          */
-        public function addEditorStyle( $editor_style ) {
-            if ( $editor_style != '' ) {
-                $this->actionAfterSetup( function() use ( $editor_style ) {
-                    add_theme_support( 'editor-styles' );
-                    add_editor_style( $editor_style );
-                });
+        public function addEditorStyles( $editor_styles ) {
+            if ( ! empty( $editor_styles ) ) {
+                add_theme_support( 'editor-styles' );
+                foreach ( $editor_styles as $editor_style ) {
+                    $this->actionAfterSetup( function() use ( $editor_style ) {
+                        add_editor_style( $editor_style );
+                    });
+                }
             }
         }
 
@@ -279,7 +285,7 @@ if ( ! class_exists( 'DualTone_Theme' ) )
                 foreach ( $scripts as $script ) {
                     $this->actionEnqueueScripts( function() use ( $textdomain, $script ) {
                         wp_enqueue_script(
-                            sanitize_title( $textdomain ),
+                            sanitize_title( $textdomain ) . '-' . basename( $style, '.js' ),
                             get_template_directory_uri() . $script['src'],
                             $script['deps'],
                             wp_get_theme()->get( 'Version' ),
