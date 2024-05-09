@@ -18,6 +18,7 @@ $variations = [
         'sidebar-navigation' => __('SidebarNav', 'dualtone'),
     ],
     'core/group' => [
-        'baseline' => __('AlignBaseline', 'dualtone')
+        'baseline' => __('AlignBaseline', 'dualtone'),
+        'palette' => __('Palette', 'dualtone')
     ]
 ];

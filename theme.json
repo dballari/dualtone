@@ -226,7 +226,7 @@
 				"css": " &.is-style-variable-min-height {min-height: clamp(28.75rem, 43.913rem + -19.5652vw, 40rem);}"
 			},
 			"core/group": {
-				"css": " & .is-nowrap.is-layout-flex.is-style-baseline { align-items: baseline !important; }"
+				"css": " & .is-nowrap.is-layout-flex.is-style-baseline { align-items: baseline !important; } & .is-style-palette { width: 160px; height: 160px; padding-top: 2rem;}"
 			},
 			"core/navigation": {
 				"css": "& button {border: 1px solid; padding: 4px;}",

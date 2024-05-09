@@ -285,7 +285,7 @@ if ( ! class_exists( 'DualTone_Theme' ) )
                 foreach ( $scripts as $script ) {
                     $this->actionEnqueueScripts( function() use ( $textdomain, $script ) {
                         wp_enqueue_script(
-                            sanitize_title( $textdomain ) . '-' . basename( $style, '.js' ),
+                            sanitize_title( $textdomain ) . '-' . basename( $script['src'], '.js' ),
                             get_template_directory_uri() . $script['src'],
                             $script['deps'],
                             wp_get_theme()->get( 'Version' ),
