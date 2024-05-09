@@ -1,8 +1,8 @@
 /* DualTone pullquote block customizations
 ------------------------------------------- */
 .wp-block-pullquote {
-    border-bottom: 2px solid var(--wp--preset--color--contrast-2);
-    border-top: 2px solid var(--wp--preset--color--contrast-2);
+    border-bottom: 2px solid var(--wp--preset--color--accent);
+    border-top: 2px solid var(--wp--preset--color--accent);
     color: currentColor;
     margin-bottom: 1.75em;
 }

@@ -12,7 +12,7 @@ $variations = [
         'variable-min-height' => __('VariableHeight', 'dualtone'),
     ],
     'core/button' => [
-        'contrast-2' => __('Contrast2', 'dualtone'),
+        'accent' => __('Accent', 'dualtone'),
     ],
     'core/navigation' => [
         'sidebar-navigation' => __('SidebarNav', 'dualtone'),

@@ -6,14 +6,9 @@
 		"color": {
 			"palette": [
 				{
-					"color": "#111111",
+					"color": "#111",
 					"name": "Base",
 					"slug": "base"
-				},
-				{
-					"color": "#005E66",
-					"name": "Base / Two",
-					"slug": "base-2"
 				},
 				{
 					"color": "#FEFEFE",
@@ -21,14 +16,14 @@
 					"slug": "contrast"
 				},
 				{
-					"color": "#00838F",
-					"name": "Contrast / Two",
-					"slug": "contrast-2"
+					"color": "#00BBCC",
+					"name": "Accent",
+					"slug": "accent"
 				},
 				{
-					"color": "#33EEFF",
-					"name": "Contrast / Three",
-					"slug": "contrast-3"
+					"color": "#175B78",
+					"name": "Accent / Two",
+					"slug": "accent-2"
 				}
 			]
 		}

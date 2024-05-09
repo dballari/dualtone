@@ -1,7 +1,7 @@
 /* DualTone quote block customizations
 ------------------------------------------- */
 .wp-block-quote {
-    border-left:2px solid var(--wp--preset--color--contrast-2);
+    border-left:2px solid var(--wp--preset--color--accent);
     margin:0 0 1.75em;
     padding-left:1em
 }
