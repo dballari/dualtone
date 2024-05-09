@@ -1,17 +1,34 @@
 /* DualTone navigation block customizations
 ------------------------------------------- */
+.wp-block-navigation.is-style-sidebar-navigation .wp-block-navigation__responsive-container-open {
+    margin: 0 auto;
+}
+
 @media (min-width: 600px) {
-    .is-border-width-2 {
+    .wp-block-navigation.is-style-sidebar-navigation .wp-block-navigation__responsive-container-content {
         border: 1px solid;
         padding: 8px;
     }
+    .wp-block-navigation.is-style-sidebar-navigation.is-vertical {
+        --navigation-layout-justify: center;
+    }
+}
+
+.wp-block-navigation.is-style-sidebar-navigation .wp-block-navigation__container.is-vertical {
+    --navigation-layout-direction:row;
 }
 
 @media (min-width: 782px) {
-    .is-style-sidebar-navigation .wp-block-navigation-item {
+    .wp-block-navigation.is-style-sidebar-navigation.is-vertical {
+        --navigation-layout-justify: initial;
+    }
+    .wp-block-navigation.is-style-sidebar-navigation .wp-block-navigation__container.is-vertical {
+        --navigation-layout-direction:column;
+    }
+    .is-style-sidebar-navigationko .wp-block-navigation-item {
         width: 100%;
     }
-    .is-border-width-2 {
+    .wp-block-navigation.is-style-sidebar-navigation .wp-block-navigation__responsive-container-content {
         border: none;
         padding: 0;
     }
