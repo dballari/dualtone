@@ -13,6 +13,6 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"metadata":{"name":"navigation-wrap"},"style":{"spacing":{"padding":{"top":"var:preset|spacing|050"}}},"layout":{"type":"default"}} -->
-<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--050)"><!-- wp:navigation {"ref":103,"hasIcon":false,"className":"is-style-sidebar-navigation","layout":{"type":"flex","orientation":"vertical","justifyContent":"left"},"style":{"spacing":{"blockGap":"var:preset|spacing|050"}}} /--></div>
+<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--050)"><!-- wp:navigation {"hasIcon":false,"className":"is-style-sidebar-navigation","layout":{"type":"flex","orientation":"vertical","justifyContent":"left"},"style":{"spacing":{"blockGap":"var:preset|spacing|050"}}} /--></div>
 <!-- /wp:group --></aside>
 <!-- /wp:group -->
