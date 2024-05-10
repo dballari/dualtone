@@ -1,12 +1,12 @@
 # DualTone
 
-The DualTone WordPress theme is a two-column (sidebar on the left) blog for creators. It can either be used for content creators or design creators (web designers) or theme creators (web developers), to craft beautifull web pages based on user patterns.
+The DualTone WordPress theme is a two-column (sidebar on the left) blog for creators. It can either be used for content creators or design creators (web designers) or theme creators (web developers), to craft beautiful web pages based on user patterns.
 
 The DualTone theme simplifies content creation by heavily relying on user patterns and assigning a template area in all places of a template where user content may be added.
 
 ## Demo
 
-You can see the DualTone demo here [https://www.dualtone.blog/demo](https://www.dualtone.blog/demo) or you can just reproduce the demo site by importing the demo xml file into a clean WordPress installation.
+You can see the DualTone demo here [DualTone demo](https://ballarinconsulting.com/demo-dualtone) or you can just reproduce the demo site by importing the demo xml file into a clean WordPress installation.
 
 ## Requirements
 
@@ -28,4 +28,4 @@ In order to reproduce the demo site you are adviced to follow the steps explaine
 
 ## Additional documentations
 
-You will find everything you need to know about the DualTone theme in [DualTone blog](https://www.dualtone.blog).
+You will find everything you need to know about the DualTone theme in [DualTone blog](https://ballarinconsulting.com/dualtone).

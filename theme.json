@@ -239,6 +239,9 @@
 			"core/post-terms": {
 				"css": " & a { padding: 4px; background-color: var(--wp--preset--color--contrast); color: var(--wp--preset--color--base); border-radius: 4px; }"
 			},
+			"core/post-title": {
+				"css": " & a:visited { color: var(--wp--preset--color--accent-2); }"
+			},
 			"core/query-pagination-next": {
 				"css": "background-color: var(--wp--preset--color--contrast); color: var(--wp--preset--color--base); border-radius: 4px; padding: var(--wp--preset--spacing--025);"
 			},
