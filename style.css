@@ -25,10 +25,14 @@ Tags: blog, two-columns, left-sidebar, accessibility-ready, block-patterns, bloc
     margin-block-start: 0;
 }
 
-/* Go back link
+/* Links
 --------------------------------------- */
 .go-back-link a::before {
     content: '←';
+}
+.go-top-link a::after {
+    content: '↑';
+    padding-left: 4px;
 }
 
 
