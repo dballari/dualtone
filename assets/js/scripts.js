@@ -4,7 +4,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     findEmptyElements('.wp-block-template-part');
     activateGoBackLinks('.go-back-link');
-    //classifyHeading('h2.wp-block-post-title');
+    deactivateHashLinks();
 });
 
 
@@ -41,26 +41,21 @@ function goBack() {
     window.history.back();
 }
 
-
 /**
- * Adds a class to the targeted headings according to their length
- * @TODO content length responsive font size
+ * Find inactive links and set theme up
  */
-function classifyHeading(headingSelector) {
-    var headings = document.querySelectorAll(headingSelector);
+function deactivateHashLinks() {
+    // Get all links on the page
+    var links = document.querySelectorAll('a[href="##"]');
   
-    headings.forEach(function(heading) {
-        var text = heading.textContent.trim();
-        var length = text.length;
-        var classToAdd;
-        if (length < 18) {
-            classToAdd = 'small';
-        } else if (length <= 70) {
-            classToAdd = 'medium';
-        } else {
-            classToAdd = 'large';
-        }
-        //console.log('length: ', headingSelector, length, classToAdd);
-        heading.classList.add(classToAdd);
+    // Loop through each link
+    links.forEach(function(link) {
+        // Prevent default click event
+        link.addEventListener('click', function(event) {
+            vent.preventDefault();
+        });
+
+        // Add the class 'inactive' to the link
+        link.classList.add('inactive');
     });
 }

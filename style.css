@@ -34,6 +34,10 @@ Tags: blog, two-columns, left-sidebar, accessibility-ready, block-patterns, bloc
     content: '↑';
     padding-left: 4px;
 }
+a.inactive {
+    pointer-events: none;
+	cursor: default;
+}
 
 
 /* Footer
