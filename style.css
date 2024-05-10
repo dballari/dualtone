@@ -29,10 +29,10 @@ Tags: blog, two-columns, left-sidebar, accessibility-ready, block-patterns, bloc
 --------------------------------------- */
 .go-back-link a::before {
     content: '←';
+    padding-right: 2px;
 }
 .go-top-link a::after {
     content: '↑';
-    padding-left: 4px;
 }
 a.inactive {
     pointer-events: none;

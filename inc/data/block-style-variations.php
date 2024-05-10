@@ -2,23 +2,24 @@
 
 $variations = [
     'core/columns' => [
-        'sidebar-content' => __('SidebarContent', 'dualtone')
+        'sidebar-content' => __( 'SidebarContent', 'dualtone' )
     ],
     'core/column' => [
-        'sidebar-left' => __('SidebarLeft', 'dualtone'),
-        'content-right' => __('ContentRight', 'dualtone')
+        'sidebar-left' => __( 'SidebarLeft', 'dualtone' ),
+        'content-right' => __( 'ContentRight', 'dualtone' )
     ],
     'core/cover' => [
-        'variable-min-height' => __('VariableHeight', 'dualtone'),
+        'variable-min-height' => __( 'VariableHeight', 'dualtone' ),
     ],
     'core/button' => [
-        'accent' => __('Accent', 'dualtone'),
+        'accent' => __( 'Accent', 'dualtone' ),
     ],
     'core/navigation' => [
-        'sidebar-navigation' => __('SidebarNav', 'dualtone'),
+        'sidebar-navigation' => __( 'SidebarNav', 'dualtone' ),
     ],
     'core/group' => [
-        'baseline' => __('AlignBaseline', 'dualtone'),
-        'palette' => __('Palette', 'dualtone')
+        'baseline' => __( 'AlignBaseline', 'dualtone' ),
+        'palette' => __( 'Palette', 'dualtone' ),
+        'vborder' => __( 'VerticalBorder', 'dualtone' )
     ]
 ];

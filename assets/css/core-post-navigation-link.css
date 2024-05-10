@@ -1,0 +1,20 @@
+/* DualTone post navigation link customizations
+----------------------------------------------- */
+.is-style-vborder .wp-block-post-navigation-link.post-navigation-link-previous {
+    margin-right: 12%;
+}
+.is-style-vborder .wp-block-post-navigation-link.post-navigation-link-previous a::before {
+    content: "←";
+}
+.is-style-vborder .wp-block-post-navigation-link.post-navigation-link-next {
+    margin-left: 12%;
+}
+.is-style-vborder .wp-block-post-navigation-link.post-navigation-link-next a::after {
+    content: "→";
+}
+.is-style-vborder .wp-block-post-navigation-link {
+    padding-bottom:var(--wp--preset--spacing--10);
+}
+.is-style-vborder .wp-block-post-navigation-link:first-of-type {
+    padding-top:var(--wp--preset--spacing--10);
+}
