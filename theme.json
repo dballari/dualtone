@@ -67,6 +67,7 @@
 				"black": "900",
 				"semiBlack": "800",
 				"bolder": "680",
+				"bold": "450",
 				"default": "280"
 			},
 			"gap": {
@@ -308,6 +309,12 @@
 					"fontStyle": "normal",
 					"fontWeight": "var(--wp--custom--font-weight--bolder)",
 					"lineHeight": "var(--wp--custom--line-height--small)"
+				}
+			},
+			"caption": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--small);",
+					"fontWeight": "var(--wp--custom--font-weight--bold);"
 				}
 			},
 			"link": {
