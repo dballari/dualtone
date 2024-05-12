@@ -38,6 +38,12 @@ a.inactive {
     pointer-events: none;
 	cursor: default;
 }
+a[target="_blank"]::after {
+    content: "↗";
+}
+a[target="blank"]::after {
+    content: "↗";
+}
 
 
 /* Footer

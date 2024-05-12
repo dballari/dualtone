@@ -35,10 +35,16 @@ function activateGoBackLinks(elementSelector) {
 }
 
 /**
- * Function to go back in history
+ * Function to goes back in history or closes a tab
  */
 function goBack() {
-    window.history.back();
+    if (window.history.length > 1) {
+        // Si hay historial, ir atrás en la historia
+        window.history.back();
+    } else {
+        // Si no hay historial, cerrar la pestaña
+        window.close();
+    }
 }
 
 /**
