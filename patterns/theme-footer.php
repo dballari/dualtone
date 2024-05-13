@@ -10,8 +10,8 @@ $name = wp_get_theme()->Name;
 ?>
 <!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:cover {"overlayColor":"accent","isUserOverlayColor":true,"align":"full","className":"is-style-variable-min-height","layout":{"type":"constrained"}} -->
-<div class="wp-block-cover alignfull is-style-variable-min-height" id="cta"><span aria-hidden="true" class="wp-block-cover__background has-accent-background-color has-background-dim-100 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Write title…","fontSize":"medium"} -->
-<p class="has-text-align-center has-medium-font-size"><?php esc_html_e( 'Join my list and get access to my content creation guide', 'dualtone' ); ?></p>
+<div class="wp-block-cover alignfull is-style-variable-min-height" id="cta"><span aria-hidden="true" class="wp-block-cover__background has-accent-background-color has-background-dim-100 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Write title…","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"textColor":"base","fontSize":"medium"} -->
+<p class="has-text-align-center has-base-color has-text-color has-link-color has-medium-font-size"><?php esc_html_e( 'Join my list and get access to my content creation guide', 'dualtone' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->

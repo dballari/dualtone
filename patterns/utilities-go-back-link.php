@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Go back link
- * Slug: dualtone/utility-go-back-link
+ * Slug: dualtone/utilities-go-back-link
  * Categories: utilities
  */
 ?>

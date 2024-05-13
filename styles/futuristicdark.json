@@ -11,7 +11,7 @@
 					"slug": "base"
 				},
 				{
-					"color": "#FEFEFE",
+					"color": "#C6C6C6",
 					"name": "Contrast",
 					"slug": "contrast"
 				},
@@ -21,7 +21,7 @@
 					"slug": "accent"
 				},
 				{
-					"color": "#175B78",
+					"color": "#92B7C4",
 					"name": "Accent / Two",
 					"slug": "accent-2"
 				}
@@ -29,9 +29,6 @@
 		}
 	},
 	"styles": {
-		"color": {
-			"text": "var(--wp--preset--color--contrast-2)"
-		},
 		"blocks": {
 			"core/buttons": {
 				"elements": {

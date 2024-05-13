@@ -38,7 +38,16 @@ Source: https://rsms.me/
 -- End of Inter Font credits --
 
 Error 404 image
-marked as being the public domain
+marked as being public domain
 https://www.flickr.com/photos/116071498@N08/38683650625
 https://openverse.org/image/8db4d0b1-cfb9-4f65-ae6c-119e2ed4ad92?q=disaster
+
+Images as example of Media Blocks
+marked as being public domain
+https://flic.kr/p/2pQKXhd
+https://flic.kr/p/2pQSm9W
+https://flic.kr/p/M4D9vb
+
+DualTone logo created by David Ballarin Prunera
+
 -- End of image credits --
