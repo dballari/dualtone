@@ -13,6 +13,7 @@ $variations = [
     ],
     'core/button' => [
         'accent' => __( 'Accent', 'dualtone' ),
+        'dark' => __( 'Dark', 'dualtone' )
     ],
     'core/navigation' => [
         'sidebar-navigation' => __( 'SidebarNav', 'dualtone' ),

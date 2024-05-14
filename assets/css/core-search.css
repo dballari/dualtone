@@ -1,0 +1,43 @@
+/* DualTone search block customizations
+----------------------------------------------- */
+.wp-block-search {
+    width: 100%;
+}
+
+.wp-block-search__focused {
+    outline: 2px dashed var(--wp--preset--color--accent);
+}
+.wp-block-search .wp-block-search__input {
+    font-family: var(--wp--preset--font-family--inter);
+    font-size: var(--wp--preset--font-size--medium);
+    border-color: var(--wp--preset--color--contrast);
+    border-width: var(--wp--custom--border--thin);
+    padding: var(--wp--preset--spacing--050);
+}
+
+.wp-block-search .wp-block-search__input::placeholder {
+    color: var(--wp--preset--color--contrast);
+    opacity: 1;
+    font-family: var(--wp--preset--font-family--inter);
+    font-size: var(--wp--preset--font-size--medium);
+}
+
+.wp-block-search .wp-block-search__input {
+    background-color: var(--wp--preset--color--base);
+}
+
+.wp-block-search :where(.wp-block-search__button-inside .wp-block-search__inside-wrapper) {
+    padding: 0;
+    border-color: var(--wp--preset--color--contrast);
+}
+
+.wp-block-search .wp-block-search__button {
+    border: 0;
+    padding: 4px;
+    margin: 0;
+    background-color: var(--wp--preset--color--contrast);
+}
+
+.wp-block-search .wp-block-search__button .search-icon {
+    color: var(--wp--preset--color--base);
+}

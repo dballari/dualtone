@@ -1,19 +1,22 @@
 /**
  * DualTone scripts
+ * @author David Ballarin Prunera
+ * @description JavaScript functions to implemente the DualTone behavior
  */
 document.addEventListener('DOMContentLoaded', function() {
-    findEmptyElements('.wp-block-template-part');
     activateGoBackLinks('.go-back-link');
     deactivateHashLinks();
+    findEmptyElements('.wp-block-template-part');
+    watchSearchInputFocus('wp-block-search__input', 'wp-block-search__focused');
 });
 
 
 /**
  * Find empty elements
+* @param {string} elementSelector selector to identify elements to empty
  */
 function findEmptyElements(elementSelector) {
     var elements = document.querySelectorAll(elementSelector);
-    
     elements.forEach(function(element) {
         if (element.innerHTML.trim() === '') {
             element.classList.add('empty');
@@ -23,6 +26,7 @@ function findEmptyElements(elementSelector) {
 
 /**
  * Activate go back links for elements with a class
+ * @param {string} elementSelector selector to identify link
  */
 function activateGoBackLinks(elementSelector) {
     var goBackLinks = document.querySelectorAll(elementSelector);
@@ -58,10 +62,41 @@ function deactivateHashLinks() {
     links.forEach(function(link) {
         // Prevent default click event
         link.addEventListener('click', function(event) {
-            vent.preventDefault();
+            event.preventDefault();
         });
 
         // Add the class 'inactive' to the link
         link.classList.add('inactive');
+    });
+}
+
+/**
+ * Adds and removes class to form when input receives or loses focus
+ * @param {string} inputClass class of the input element
+ * @param {string} formClassToAdd class to add / remove to the form
+ */
+function watchSearchInputFocus(inputClass, formClassToAdd) {
+
+    // Select all input elements with the specified class
+    const inputs = document.querySelectorAll(`input.${inputClass}`);
+
+    inputs.forEach(input => {
+        // Add focus event listener to each input
+        input.addEventListener('focus', function() {
+            // Find the parent form element
+            const form = input.closest('form');
+            if (form) {
+                // Add the specified class to the form
+                form.classList.add(formClassToAdd);
+            }
+        });
+
+        // Add blur event listener to remove the class when focus is lost
+        input.addEventListener('blur', function() {
+            const form = input.closest('form');
+            if (form) {
+                form.classList.remove(formClassToAdd);
+            }
+        });
     });
 }

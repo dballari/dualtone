@@ -1,0 +1,10 @@
+/* DualTone group block customizations
+------------------------------------------- */
+
+.wp-block-group.is-nowrap.is-layout-flex.is-style-baseline { 
+    align-items: baseline !important;
+}
+
+.wp-block-group.is-style-palette { 
+    width: 160px; height: 160px; padding-top: 2rem;
+}

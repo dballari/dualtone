@@ -11,7 +11,7 @@
 					"slug": "base"
 				},
 				{
-					"color": "#C6C6C6",
+					"color": "#FFF",
 					"name": "Contrast",
 					"slug": "contrast"
 				},
@@ -26,11 +26,21 @@
 					"slug": "accent-2"
 				}
 			]
+		},
+		"custom": {
+			"fontWeight": {
+				"default": "150",
+				"semiBold": "330"
+			}
 		}
 	},
 	"styles": {
 		"blocks": {
+			"core/button": {
+				"css": "border-radius: 0px; background-color: var(--wp--preset--color--contrast);"
+			},
 			"core/buttons": {
+				"css": " & .is-style-dark .wp-block-button__link { background-color: var(--wp--preset--color--base); color: var(--wp--preset--color--contrast); }",
 				"elements": {
 					"link": {
 						"color": {
@@ -38,7 +48,32 @@
 						}
 					}
 				}
+			},
+			"core/cover": {
+				"css": " & .has-base-color { font-weight: var(--wp--custom--font-weight--semi-bold); }"
+			},
+			"core/group": {
+				"css": " & .is-style-vborder { gap: 0; border-top: 1px solid var(--wp--preset--color--accent); border-bottom: 1px solid var(--wp--preset--color--accent); padding: var(--wp--preset--spacing--025) 0; } & .has-accent-background-color { font-weight: var(--wp--custom--font-weight--semi-bold); }"
+			},
+			"core/query-pagination": {
+				"typography": {
+					"fontWeight": "var(--wp--custom--font-weight--semi-bold);"
+				}
+			},
+			"core/site-title": {
+				"typography": {
+					"fontFamily": "Zen Dots"
+				},
+				"css": " & a { color: var(--wp--preset--color--contrast); }"
+			},
+			"core/post-title": {
+				"typography": {
+					"fontFamily": "Zen Dots"
+				}
 			}
+		},
+		"color": {
+			"text": "var(--wp--preset--color--accent-2)"
 		}
 	}
 }
