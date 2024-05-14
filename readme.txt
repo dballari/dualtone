@@ -49,7 +49,7 @@ https://www.flickr.com/photos/116071498@N08/38683650625
 https://openverse.org/image/8db4d0b1-cfb9-4f65-ae6c-119e2ed4ad92?q=disaster
 -- End of Error 404 image credits --
 
-Images as example of Media Blocks ar public domain images
+Images as example of Media Blocks are public domain images
 https://flic.kr/p/2pQKXhd
 https://flic.kr/p/2pQSm9W
 https://flic.kr/p/M4D9vb
