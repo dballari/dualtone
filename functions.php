@@ -4,7 +4,7 @@
  *
  * @package DualTone
  * @author  David Ballarin Prunera
- * @license GNU General Public License v2 or later
+ * @license GNU General Public License v2
  * @link    https://ballarinconsulting.com/dualtone
  */
 
@@ -24,12 +24,12 @@ require_once 'inc/data/theme-pattern-categories.php';
  * Add theme development utilities
  */
 if( WP_DEVELOPMENT_MODE == 'theme' && DT_HIGHLIGHT_PARTS ) {
-    add_filter( 'body_class','highlight_parts' );
+    add_filter( 'body_class','dualtone_highlight_parts' );
     $styles = ['style.css', 'style-debug.css'];
 } else {
     $styles = ['style.css'];
 }
-function highlight_parts( $classes ) {
+function dualtone_highlight_parts( $classes ) {
     $classes[] = 'highlight-parts';
     return $classes;
 }
