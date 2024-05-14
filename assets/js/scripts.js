@@ -1,7 +1,7 @@
 /**
  * DualTone scripts
- * @author David Ballarin Prunera
- * @description JavaScript functions to implemente the DualTone behavior
+ * @author David Ballarin Prunera under GPL v2 license
+ * @description JavaScript functions to implement the DualTone behavior
  */
 document.addEventListener('DOMContentLoaded', function() {
     activateGoBackLinks('.go-back-link');
@@ -24,6 +24,7 @@ function findEmptyElements(elementSelector) {
     });
 }
 
+
 /**
  * Activate go back links for elements with a class
  * @param {string} elementSelector selector to identify link
@@ -38,6 +39,7 @@ function activateGoBackLinks(elementSelector) {
     });
 }
 
+
 /**
  * Function to goes back in history or closes a tab
  */
@@ -50,6 +52,7 @@ function goBack() {
         window.close();
     }
 }
+
 
 /**
  * Find inactive links and set theme up
@@ -69,6 +72,7 @@ function deactivateHashLinks() {
         link.classList.add('inactive');
     });
 }
+
 
 /**
  * Adds and removes class to form when input receives or loses focus

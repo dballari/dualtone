@@ -5,7 +5,7 @@
  *
  * @package	DualTone Settings
  * @author	David Ballarin Prunera
- * @license	GNU General Public License v3
+ * @license	GNU General Public License v2
  * @link	https://ballarinconsulting.com/dualtone
  */
 
@@ -17,8 +17,6 @@ if ( ! class_exists( 'DualTone_Settings' ) )
 {
     class DualTone_Settings
     {
-        public $textdomain;
-        public $theme_options_name;
 
         /**
          * Holds the values to be used in the fields callbacks
@@ -30,9 +28,7 @@ if ( ! class_exists( 'DualTone_Settings' ) )
          */
         public function __construct( $textdomain )
         {
-            $this->textdomain = sanitize_title( $textdomain );
-            $this->theme_options_name = $this->textdomain . '_theme_options';
-            $this->options = get_option( $this->theme_options_name );
+            $this->options = get_option( 'dualtone_theme_options' );
             add_action( 'admin_menu', array( $this, 'add_theme_settings_page' ) );
             add_action( 'admin_init', array( $this, 'theme_settings_page_init' ) );
         }
@@ -44,10 +40,10 @@ if ( ! class_exists( 'DualTone_Settings' ) )
         {
             // This page will be under "Apperance"
             add_theme_page(
-                __( 'DualTone Settings Page', $this->textdomain ),
-                __( 'DualTone settings', $this->textdomain ),
+                __( 'DualTone Settings Page', 'dualtone' ),
+                __( 'DualTone settings', 'dualtone' ),
                 'edit_theme_options',
-                $this->textdomain,
+                'dualtone',
                 array( $this, 'create_admin_page' )
             );
         }
@@ -89,56 +85,55 @@ if ( ! class_exists( 'DualTone_Settings' ) )
 
             add_settings_section(
                 'dualtone_inserter_options', // ID
-                __( 'Choose which remote patterns to show in the block inserter', 
-                    $this->textdomain ), // Title
+                __( 'Choose which remote patterns to show in the block inserter', 'dualtone' ),
                 array( $this, 'print_section_info_inserter' ), // Callback
-                $this->textdomain // Page
+                'dualtone' // Page
             );  
 
             add_settings_field(
                 'remote_patterns', 
-                __( 'Remote patterns to include', $this->textdomain ), 
+                __( 'Remote patterns to include', 'dualtone' ), 
                 array( $this, 'remote_patterns' ), 
-                $this->textdomain, 
+                'dualtone', 
                 'dualtone_inserter_options'
             );
 
             add_settings_field(
                 'pattern_slug', 
-                __( 'Add pattern slug to list', $this->textdomain ),
+                __( 'Add pattern slug to list', 'dualtone' ),
                 array( $this, 'pattern_slug_add' ), 
-                $this->textdomain, 
+                'dualtone', 
                 'dualtone_inserter_options'
             );
 
             add_settings_field(
                 'pattern_slug_remove', 
-                __( 'Remove pattern slug from list', $this->textdomain ),
+                __( 'Remove pattern slug from list', 'dualtone' ),
                 array( $this, 'pattern_slug_remove' ), 
-                $this->textdomain, 
+                'dualtone', 
                 'dualtone_inserter_options'
             );
 
             add_settings_field(
                 'curated_patterns_slugs', 
-                __( 'Curated list of patterns', $this->textdomain ),
+                __( 'Curated list of patterns', 'dualtone' ),
                 array( $this, 'curated_patterns_slugs' ), 
-                $this->textdomain, 
+                'dualtone', 
                 'dualtone_inserter_options'
             );
             
             add_settings_section(
                 'dualtone_unregister_section', // ID
-                __( 'Unregister theme patterns', $this->textdomain ), // Title
+                __( 'Unregister theme patterns', 'dualtone' ), // Title
                 array( $this, 'print_section_info_unregister' ), // Callback
-                $this->textdomain // Page
+                'dualtone' // Page
             );
 
             add_settings_field(
                 'unregister_theme_patterns', 
-                __( 'Unregister theme patterns', $this->textdomain ),
+                __( 'Unregister theme patterns', 'dualtone' ),
                 array( $this, 'unregister_theme_patterns' ), 
-                $this->textdomain, 
+                'dualtone', 
                 'dualtone_unregister_section'
             );
 
@@ -158,13 +153,13 @@ if ( ! class_exists( 'DualTone_Settings' ) )
             if( isset( $input['remote_patterns'] ) ) {
                 switch($input['remote_patterns'] ) {
                     case 'all':
-                        $new_input['remote_patterns'] = __( 'all', $this->textdomain );
+                        $new_input['remote_patterns'] = __( 'all', 'dualtone' );
                         break;
                     case 'curated':
-                        $new_input['remote_patterns'] = __( 'curated', $this->textdomain );
+                        $new_input['remote_patterns'] = __( 'curated', 'dualtone' );
                         break;
                     default:
-                        $new_input['remote_patterns'] = __( 'none', $this->textdomain );
+                        $new_input['remote_patterns'] = __( 'none', 'dualtone' );
                 }
             } else {
                 $new_input['remote_patterns'] = '';
@@ -252,15 +247,15 @@ if ( ! class_exists( 'DualTone_Settings' ) )
         public function print_section_info_inserter()
         {
             print '<ul>';
-            print __( '<li>Choose \'none\' to see nothing but the theme & user patterns.</li>', $this->textdomain );
-            print __( '<li>Choose \'all\' if you want to see all remote patterns.</li>', $this->textdomain );
-            print __( '<li>Choose \'only a list\' if you have a list of curated remote patterns. Go to <a target="_blank" target="patterns" href="https://wordpress.org/patterns/">WordPress patterns</a> to start making your list.</li>', $this->textdomain );
+            print __( '<li>Choose \'none\' to see nothing but the theme & user patterns.</li>', 'dualtone' );
+            print __( '<li>Choose \'all\' if you want to see all remote patterns.</li>', 'dualtone' );
+            print __( '<li>Choose \'only a list\' if you have a list of curated remote patterns. Go to <a target="_blank" target="patterns" href="https://wordpress.org/patterns/">WordPress patterns</a> to start making your list.</li>', 'dualtone' );
             print '</ul>';                
         }
 
         public function print_section_info_unregister()
         {
-            print __( '<p>You may choose to hide the original theme patterns if you already have duplicated and customized the ones you use.</p>', $this->textdomain );
+            print __( '<p>You may choose to hide the original theme patterns if you already have duplicated and customized the ones you use.</p>', 'dualtone' );
         }
 
         /** 
@@ -274,7 +269,7 @@ if ( ! class_exists( 'DualTone_Settings' ) )
                     <option <?php if (isset($this->options['remote_patterns'])) { echo $this->options['remote_patterns'] == 'all' ? 'selected': ''; } ?> value="all">All</option>
                     <option <?php if ( isset($this->options['remote_patterns']) ) { 
                         echo $this->options['remote_patterns'] == 'curated' ? 'selected': ''; } ?> value="curated">
-                        <?php _e('Only a list of curated patterns', ''); ?></option>
+                        <?php _e('Only a list of curated patterns', 'dualtone'); ?></option>
                 </select>
             <?php
         }

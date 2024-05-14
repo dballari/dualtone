@@ -56,20 +56,17 @@ $dualtone_theme = new DualTone_Theme(
     ]
 );
 
+//var_dump(wp_get_theme()); die();
 
 /**
  * Adds the theme settings page
  */
 if( is_admin() ) {
-    $settings_page = new DualTone_Settings(
-        'dualtone'
-    );
+    $settings_page = new DualTone_Settings( 'dualtone' );
     if( isset( $_GET['page'] ) && $_GET['page'] == 'dualtone' ) {
         add_filter( 'admin_footer_text', function($text) {
             return '<span id="footer-thankyou">' . $text . 
-            sprintf(
-                __( ' And thank you for using the <a href="%s">DualTone</a> theme.</span>', 'dualtone'),
-                wp_get_theme()->ThemeURI );
+                __( ' And thank you for using the DualTone theme.</span>', 'dualtone');
         }, 10, 99 );
     }
 }
