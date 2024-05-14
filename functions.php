@@ -23,7 +23,7 @@ require_once 'inc/data/theme-pattern-categories.php';
 /**
  * Add theme development utilities
  */
-if(WP_DEVELOPMENT_MODE == 'theme' && DT_HIGHLIGHT_PARTS) {
+if( WP_DEVELOPMENT_MODE == 'theme' && DT_HIGHLIGHT_PARTS ) {
     add_filter( 'body_class','highlight_parts' );
     $styles = ['style.css', 'style-debug.css'];
 } else {
@@ -32,6 +32,12 @@ if(WP_DEVELOPMENT_MODE == 'theme' && DT_HIGHLIGHT_PARTS) {
 function highlight_parts( $classes ) {
     $classes[] = 'highlight-parts';
     return $classes;
+}
+if ( WP_ENVIRONMENT_TYPE =='demo' || WP_ENVIRONMENT_TYPE =='local' ) {
+    add_filter( 'body_class', function( $classes ) {
+        $classes[] = 'demo';
+        return $classes;
+    });
 }
 
 
