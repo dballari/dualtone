@@ -259,7 +259,7 @@
                 "css": " &.is-style-variable-min-height {min-height: clamp(28.75rem, 43.913rem + -19.5652vw, 40rem);}"
             },
             "core/file": {
-                "css": "& .wp-block-file__button.wp-element-button { background-color: var(--wp--preset--color--contrast); color: var(--wp--preset--color--base); border-radius: 0; text-decoration: none; } & .wp-block-file__button.wp-element-button:hover { text-decoration: underline; }"
+                "css": "& .wp-block-file__button.wp-element-button { background-color: var(--wp--preset--color--contrast); color: var(--wp--preset--color--base); border-radius: 0; text-decoration: none; } & .wp-block-file__button.wp-element-button:hover { text-decoration: underline; opacity: 1; }"
             },
             "core/group": {
                 "css": " & .is-style-vborder { gap: 0; border-top: 1px solid var(--wp--preset--color--accent); border-bottom: 1px solid var(--wp--preset--color--accent); padding: var(--wp--preset--spacing--025) 0; }"
@@ -283,10 +283,13 @@
                 }
             },
             "core/post-content": {
-                "css": " & a:not(.wp-element-button, [rel=\"tag\"]) { text-decoration: underline;} & a:link:not([rel=\"tag\"]) { color: var(--wp--preset--color--accent); } & a:visited { color: var(--wp--preset--color--accent-2); } & a.visited { color: var(--wp--preset--color--accent-2) !important; } & a.unvisited { color: var(--wp--preset--color--accent); }"
+                "css": " & a:not(.wp-element-button, [rel=\"tag\"]) { text-decoration: underline;} & a:link:not([rel=\"tag\"],  .wp-block-file__button) { color: var(--wp--preset--color--accent); } & a:visited { color: var(--wp--preset--color--accent-2); } & a.visited { color: var(--wp--preset--color--accent-2) !important; } & a.unvisited { color: var(--wp--preset--color--accent); }"
             },
             "core/post-excerpt": {
                 "css": " & .wp-block-post-excerpt__more-link {font-weight: var(--wp--custom--font-weight--bolder);} & .wp-block-post-excerpt__more-link:hover {text-decoration: none;} & .wp-block-post-excerpt__more-link:visited { color: var(--wp--preset--color--accent-2); }"
+            },
+            "core/post-template": {
+              "css": " & .sticky .wp-block-post-title a::after { content: \"*\"}"  
             },
             "core/post-terms": {
                 "css": " & a { padding: 4px; background-color: var(--wp--preset--color--contrast); color: var(--wp--preset--color--base); border-radius: 4px; } & a:visited { color: var(--wp--preset--color--base); }"

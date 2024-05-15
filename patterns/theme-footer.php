@@ -6,7 +6,6 @@
  */
 $wordpress = 'https://wordpress.org';
 $prowdly = sprintf( __( ' Prowdly powered by <a href="%s">WordPress</a>', 'dualtone'), $wordpress );
-$name = wp_get_theme()->Name;
 ?>
 <!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:cover {"overlayColor":"accent","isUserOverlayColor":true,"align":"full","className":"is-style-variable-min-height","layout":{"type":"constrained"}} -->
@@ -24,7 +23,7 @@ $name = wp_get_theme()->Name;
 <!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0%"},"padding":{"bottom":"var:preset|spacing|10"}}},"backgroundColor":"accent","className":"footer-credits","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull footer-credits has-accent-background-color has-background" style="margin-top:0%;padding-bottom:var(--wp--preset--spacing--10)"><!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|10","bottom":"var:preset|spacing|10","left":"var:preset|spacing|10","right":"var:preset|spacing|10"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--10);padding-right:var(--wp--preset--spacing--10);padding-bottom:var(--wp--preset--spacing--10);padding-left:var(--wp--preset--spacing--10)"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"textColor":"base","fontSize":"small"} -->
-<p class="has-base-color has-text-color has-link-color has-small-font-size">© <?php echo date("Y"); ?> <a href="<?php echo wp_get_theme()->ThemeURI ?>"><?php echo $name; ?></a> · <?php echo $prowdly ?> · <?php esc_html_e( 'by', 'dualtone' ); ?> David&nbsp;Ballarin&nbsp;Prunera · <a href="<?php echo esc_url( get_theme_file_uri( '#' )); ?>" data-type="page" data-id="3"><?php esc_html_e( 'Privacy', 'dualtone' ); ?></a></p>
+<p class="has-base-color has-text-color has-link-color has-small-font-size">&copy; <?php echo date("Y"); ?> <a href="https://ballarinconsulting.com/themes">DualTone</a> · <?php echo $prowdly ?> · <?php esc_html_e( 'by', 'dualtone' ); ?> David&nbsp;Ballarin&nbsp;Prunera · <a href="#"><?php esc_html_e( 'Privacy', 'dualtone' ); ?></a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"textColor":"base","className":"go-top-link","fontSize":"small"} -->

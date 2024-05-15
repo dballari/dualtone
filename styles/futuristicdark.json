@@ -52,10 +52,20 @@
 			"core/cover": {
 				"css": " & .has-base-color { font-weight: var(--wp--custom--font-weight--semi-bold); }"
 			},
+			"core/file": {
+				"typography": {
+					"fontWeight": "var(--wp--custom--font-weight--semi-bold)"
+				}
+			},
 			"core/group": {
 				"css": " & .is-style-vborder { gap: 0; border-top: 1px solid var(--wp--preset--color--accent); border-bottom: 1px solid var(--wp--preset--color--accent); padding: var(--wp--preset--spacing--025) 0; } & .has-accent-background-color { font-weight: var(--wp--custom--font-weight--semi-bold); }"
 			},
 			"core/query-pagination": {
+				"typography": {
+					"fontWeight": "var(--wp--custom--font-weight--semi-bold);"
+				}
+			},
+			"core/post-terms": {
 				"typography": {
 					"fontWeight": "var(--wp--custom--font-weight--semi-bold);"
 				}
