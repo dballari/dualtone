@@ -323,7 +323,7 @@
             "background": "var(--wp--preset--color--base)",
             "text": "var(--wp--preset--color--contrast)"
         },
-        "css": "html {scroll-behavior: smooth;} figcaption { text-align: center;} figcaption:not(.blocks-gallery-caption) { padding-top: var(--wp--preset--spacing--050);} *:focus-visible { outline: 2px dashed var(--wp--preset--color--accent); } input:focus { outline: 2px dashed var(--wp--preset--color--contrast); }",
+        "css": "html {scroll-behavior: smooth;} figcaption { text-align: center;} figcaption:not(.blocks-gallery-caption) { padding-top: var(--wp--preset--spacing--050);} ",
         "elements": {
             "button": {
                 ":hover": {

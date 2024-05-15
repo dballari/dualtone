@@ -15,7 +15,7 @@ $prowdly = sprintf( __( ' Prowdly powered by <a href="%s">WordPress</a>', 'dualt
 
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
 <div class="wp-block-buttons"><!-- wp:button {"textAlign":"center","className":"is-style-dark"} -->
-<div class="wp-block-button is-style-dark"><a class="wp-block-button__link has-text-align-center wp-element-button"><?php esc_html_e( 'yes, please!', 'dualtone' ); ?></a></div>
+<div class="wp-block-button is-style-dark"><a href="#" class="wp-block-button__link has-text-align-center wp-element-button"><?php esc_html_e( 'yes, please!', 'dualtone' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div></div>
 <!-- /wp:cover -->
