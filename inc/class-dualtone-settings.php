@@ -6,7 +6,7 @@
  * @package	DualTone Settings
  * @author	David Ballarin Prunera
  * @license	GNU General Public License v2
- * @link	https://ballarinconsulting.com/dualtone
+ * @link	https://ballarinconsulting.com/themes
  */
 
 /**

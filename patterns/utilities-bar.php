@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Bar
- * Slug: dualtone/theme-bar
- * Inserter: no
+ * Slug: dualtone/utilities-bar
+ * Categories: utilities
  */
 ?>
 <!-- wp:separator {"style":{"spacing":{"margin":{"top":"0px","bottom":"0px"}}},"className":"is-style-default"} -->

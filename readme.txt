@@ -12,8 +12,8 @@ A WordPress theme based on user patterns—for creators
 
 == Changelog ==
 
-= 0.6.0 =
-* Some minor twicks
+= 0.7.0 =
+* template areas and parts revised
 
 == Copyright ==
 

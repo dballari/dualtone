@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: Sidebar content
- * Slug: dualtone/theme-sidebar-content
+ * Title: Sidebar
+ * Slug: dualtone/theme-sidebar
  * Inserter: no
  */
 ?>

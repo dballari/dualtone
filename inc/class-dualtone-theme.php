@@ -6,7 +6,7 @@
  * @package	DualTone Theme
  * @author	David Ballarin Prunera
  * @license	GNU General Public License v3
- * @link	https://ballarinconsulting.com/dualtone
+ * @link	https://ballarinconsulting.com/themes
  */
 
 if ( ! class_exists( 'DualTone_Theme' ) )
@@ -34,6 +34,7 @@ if ( ! class_exists( 'DualTone_Theme' ) )
          */
         private $default_theme_options = [
             'remote_patterns' => 'none',
+            'curated_patterns' => '',
             'unregister_theme_patterns' => '0'
         ];
         
@@ -143,18 +144,18 @@ if ( ! class_exists( 'DualTone_Theme' ) )
             $this->addPatternCategories( $this->pattern_categories );
             $this->modifyExcerptMore( $this->excerpt_more );
             $this->loadTextDomain( $this->textdomain );
-            add_filter( 'default_wp_template_part_areas', [$this, 'addCustomAreas'], 10, 1 );
+            add_filter( 'default_wp_template_part_areas', 
+                [$this, 'addCustomAreas'], 10, 1 );
 
 
             /**
-             * Show or hide certain patterns according to the theme settings page
+             * Show or hide certain patterns according to the theme settings
              */
             if ( $this->options['unregister_theme_patterns'] == '1' ) {
                 $this->removeThemePatterns();
             }
             if ($this->options['remote_patterns']=='none' ) {
                 // remote block patterns are not loaded
-                // add_filter( 'should_load_remote_block_patterns', false, 10 );
                 $this->actionAfterSetup( function() {
                     remove_theme_support( 'core-block-patterns' );
                 });
@@ -164,7 +165,8 @@ if ( ! class_exists( 'DualTone_Theme' ) )
                     remove_theme_support( 'core-block-patterns' );
                 });
                 // filter theme.json with the list of curated patterns
-                add_filter( 'wp_theme_json_data_theme', [$this, 'filterThemeJsonPatterns'], 10, 1 );
+                add_filter( 'wp_theme_json_data_theme', 
+                    [$this, 'filterThemeJsonPatterns'], 10, 1 );
             }
 
         }

@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: Loop with title and excerpt with arrow
- * Slug: dualtone/theme-loop-with-title-and-excerpt-with-arrow
+ * Title: Default loop
+ * Slug: dualtone/theme-default-loop
  * Inserter: no
  */
 ?>

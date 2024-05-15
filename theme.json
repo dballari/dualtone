@@ -420,49 +420,69 @@
     },
     "templateParts": [
         {
-            "area": "topbar",
-            "name": "topbar",
-            "title": "Topbar"
+            "area": "header",
+            "name": "top-bar",
+            "title": "Top bar"
         },
         {
             "area": "sidebar",
-            "name": "sidebar",
+            "name": "sidebar-header",
+            "title": "Sidebar header"
+        },
+        {
+            "area": "sidebar",
+            "name": "sidebar-content",
             "title": "Sidebar content"
-        },
-        {
-            "area": "header",
-            "name": "header",
-            "title": "Header"
-        },
-        {
-            "area": "title",
-            "name": "title",
-            "title": "Title"
-        },
-        {
-            "area": "loop",
-            "name": "loop",
-            "title": "Loop"
-        },
-        {
-            "area": "postcontent",
-            "name": "postcontent",
-            "title": "Post content"
-        },
-        {
-            "area": "afterpostcontent",
-            "name": "afterpostcontent",
-            "title": "After post content"
-        },
-        {
-            "area": "comments",
-            "name": "comments",
-            "title": "Comments"
         },
         {
             "area": "footer",
             "name": "footer",
             "title": "Footer"
+        },
+        {
+            "area": "title",
+            "name": "site-title",
+            "title": "Site title"
+        },
+        {
+            "area": "title",
+            "name": "archive-title",
+            "title": "Archive title"
+        },
+        {
+            "area": "title",
+            "name": "author-title",
+            "title": "Author title"
+        },
+        {
+            "area": "title",
+            "name": "search-title",
+            "title": "Search title"
+        },
+        {
+            "area": "loop",
+            "name": "default-loop",
+            "title": "Default loop"
+        },
+        {
+            "area": "uncategorized",
+            "name": "page-content",
+            "title": "Page content"
+        },
+        {
+            "area": "uncategorized",
+            "name": "post-content",
+            "title": "Post content"
+        },
+        {
+            "area": "uncategorized",
+            "name": "after-post-content",
+            "title": "After post content"
+        },
+        {
+            "area": "uncategorized",
+            "name": "comments",
+            "title": "Comments"
         },
         {
             "area": "message",

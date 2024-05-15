@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Title
- * Slug: dualtone/theme-title
+ * Slug: dualtone/theme-site-title
  * Inserter: no
  */
 ?>

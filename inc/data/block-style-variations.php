@@ -1,5 +1,14 @@
 <?php
 
+/**
+ * DualTone WordPress theme block style variations
+ *
+ * @package	DualTone Theme Data
+ * @author	David Ballarin Prunera
+ * @license	GNU General Public License v2
+ * @link	https://ballarinconsulting.com/themes
+ */
+
 $variations = [
     'core/columns' => [
         'sidebar-content' => __( 'SidebarContent', 'dualtone' )
