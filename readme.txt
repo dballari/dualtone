@@ -12,6 +12,9 @@ A WordPress theme based on user patterns—for creators
 
 == Changelog ==
 
+= 0.8.2 =
+* fix little bug in page content size template
+
 = 0.8.1 =
 * almost ready to release
 
