@@ -56,7 +56,6 @@ $dualtone_theme = new DualTone_Theme(
     ]
 );
 
-//var_dump(wp_get_theme()); die();
 
 /**
  * Adds the theme settings page
