@@ -13,6 +13,7 @@ A WordPress theme based on user patterns—for creators
 == Changelog ==
 
 = 0.8.3 =
+* remove manual font weights and use custom presets
 * added theme-bar pattern and prevent theme patterns from being unregistered
 
 = 0.8.2 =

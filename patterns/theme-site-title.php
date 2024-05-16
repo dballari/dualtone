@@ -6,5 +6,5 @@
  */
 ?>
 <!-- wp:group {"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:site-tagline {"style":{"typography":{"fontStyle":"italic","fontWeight":"300"}},"fontSize":"large"} /--></div>
+<div class="wp-block-group"><!-- wp:site-tagline {"style":{"typography":{"fontStyle":"italic","fontWeight":"var(--wp--custom--font-weight--default)"}},"fontSize":"large"} /--></div>
 <!-- /wp:group -->
