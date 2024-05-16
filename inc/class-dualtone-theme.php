@@ -355,7 +355,14 @@ if ( ! class_exists( 'DualTone_Theme' ) )
                 foreach ( $files as $file ) {
                     $basename = basename( $file, '.php' );
                     $pattern_slug = 'dualtone/'.$basename;
-                    unregister_block_pattern( $pattern_slug );
+                    if ( strpos( $basename, "theme-") !== 0 ) {
+                        /**
+                         * theme patterns are not unregistered because the theme would stop working
+                         * but they do not need to be unregistered because they are they have
+                         * the tag Inserter: no
+                         */
+                        unregister_block_pattern( $pattern_slug );
+                    }
                 }
             });
         }
