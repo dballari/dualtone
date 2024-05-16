@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
     activateGoBackLinks('.go-back-link');
     deactivateHashLinks();
     findEmptyElements('.wp-block-template-part');
+    findEmptyElements('.wp-block-post-navigation-link');
     watchSearchInputFocus('wp-block-search__input', 'wp-block-search__focused');
 });
 

@@ -5,16 +5,15 @@
 }
 .is-style-vborder .wp-block-post-navigation-link.post-navigation-link-previous a::before {
     content: "←";
+    padding-right: 2px;
 }
 .is-style-vborder .wp-block-post-navigation-link.post-navigation-link-next {
     margin-left: 12%;
 }
 .is-style-vborder .wp-block-post-navigation-link.post-navigation-link-next a::after {
     content: "→";
+    padding-left: 2px;
 }
-.is-style-vborder .wp-block-post-navigation-link {
-    padding-bottom:var(--wp--preset--spacing--10);
-}
-.is-style-vborder .wp-block-post-navigation-link:first-of-type {
+.is-style-vborder .wp-block-post-navigation-link:not(.empty) {
     padding-top:var(--wp--preset--spacing--10);
 }

@@ -255,6 +255,9 @@
             "core/buttons": {
                 "css": " & .wp-block-button__link {border-radius: 0px; background-color: var(--wp--preset--color--contrast);} & .is-style-accent .wp-block-button__link {background-color: var(--wp--preset--color--accent); & .is-style-dark .wp-block-button__link {background-color: var(--wp--preset--color--contrast); }"
             },
+            "core/comments-pagination": {
+                "css": " & a { background-color: var(--wp--preset--color--contrast); color: var(--wp--preset--color--base) !important; border-radius: 4px; padding: var(--wp--preset--spacing--025); }"
+            },
             "core/cover": {
                 "css": " &.is-style-variable-min-height {min-height: clamp(28.75rem, 43.913rem + -19.5652vw, 40rem);}"
             },
@@ -262,7 +265,7 @@
                 "css": "& .wp-block-file__button.wp-element-button { background-color: var(--wp--preset--color--contrast); color: var(--wp--preset--color--base); border-radius: 0; text-decoration: none; } & .wp-block-file__button.wp-element-button:hover { text-decoration: underline; opacity: 1; }"
             },
             "core/group": {
-                "css": " & .is-style-vborder { gap: 0; border-top: 1px solid var(--wp--preset--color--accent); border-bottom: 1px solid var(--wp--preset--color--accent); padding: var(--wp--preset--spacing--025) 0; }"
+                "css": " & .is-style-vborder { gap: 0; border-top: 1px solid var(--wp--preset--color--accent); border-bottom: 1px solid var(--wp--preset--color--accent); padding: 0 0 var(--wp--preset--spacing--10); }"
             },
             "core/image": {
                 "variations": {
@@ -292,7 +295,7 @@
               "css": " & .sticky .wp-block-post-title a::after { content: \"*\"}"  
             },
             "core/post-terms": {
-                "css": " & a { padding: 4px; background-color: var(--wp--preset--color--contrast); color: var(--wp--preset--color--base); border-radius: 4px; } & a:visited { color: var(--wp--preset--color--base); }"
+                "css": " {display: flex; flex-wrap: wrap; gap: 4px; align-items: baseline; } & a { padding: 4px; background-color: var(--wp--preset--color--contrast); color: var(--wp--preset--color--base); border-radius: 4px; } & a:visited { color: var(--wp--preset--color--base); }"
             },
             "core/query": {
                 "css": " & a:not(.wp-block-query-pagination-next) { color: var(--wp--preset--color--accent); } & a:visited { color: var(--wp--preset--color--accent-2); }"
