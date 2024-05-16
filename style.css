@@ -3,16 +3,32 @@ Theme Name: DualTone
 Theme URI: https://ballarinconsulting.com/themes
 Author: David Ballarin Prunera
 Author URI: https://ballarinconsulting.com/acerca
-Description: A block editor WordPress theme based on user patterns—for creators
+Description: A block editor WordPress theme based on user patterns—for creators. DualTone is a two column layout blog with the sidebar on the left, as a tribute to b2/cafelog, the origins of WordPress more than 20 years ago, which is also a two column layout blog. It has been designed for all type of creators and for users of all levels of expertise, from first time users to expert designers and developers. It also features a content wide page template for legal text, for instance, several custom block style variations, and blank templates for creating any type of content layout. With a simple and clean design, it lets your readers focus on your content. Includes two theme styles, one bright (the default one) and the other dark (the futuristic dark style). It’s and accessibility ready theme and last but not least, it suggests a new way to deal with template parts and synced user patterns, along with a theme options page to manage patterns in the block inserter, and two companion plugins. Do not miss the opportunity to check this theme out!
 Requires at least: 6.0
 Tested up to: 6.5
 Requires PHP: 5.7
-Version: 0.7.1
+Version: 0.8.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: dualtone
-Tags: blog, two-columns, left-sidebar, accessibility-ready, block-patterns, block-styles, editor-style, full-site-editing, style-variations, theme-options, translation-ready, 
+Tags: blog, two-columns, left-sidebar, accessibility-ready, block-patterns, block-styles, editor-style, full-site-editing, full-width-template, sticky-post, style-variations, theme-options, threaded-comments, translation-ready, 
 */
+
+/* Fade in animation
+--------------------------------------- */
+.wp-site-blocks {
+    animation: fadeInAnimation ease 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 
 /* Struture
 --------------------------------------- */
@@ -54,6 +70,21 @@ input:focus { outline: 2px dashed var(--wp--preset--color--contrast); }
 
 .site-footer :is(input, select, textarea, button, a[href]:not([href="##"]), [tabindex]:not([tabindex=-1])):focus-visible {
     outline: 4px dashed var(--wp--preset--color--base);
+}
+
+/* Form elements
+--------------------------------------- */
+select,
+textarea {
+    background-color: var(--wp--preset--color--base);
+    border: var(--wp--custom--border--thin) solid var(--wp--preset--color--contrast);
+    border-radius: 0;
+    color: var(--wp--preset--color--contrast);
+    font-family: var(--wp--preset--font-family--inter);
+    font-size: var(--wp--preset--font-size--medium);
+    line-height: var(--wp--custom--line-height--medium);
+    padding: 8px;
+    width: 100%;
 }
 
 

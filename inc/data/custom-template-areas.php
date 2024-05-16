@@ -4,7 +4,7 @@
  * DualTone WordPress theme custom template areas
  * https://developer.wordpress.org/themes/templates/template-parts/#registering-custom-areas
  * 
- * Appart from these areas there are the default ones: footer, header and uncategorized
+ * Appart from these areas there are the default ones: footer, header and uncategorized (General)
  *
  * @package	DualTone Theme Data
  * @author	David Ballarin Prunera

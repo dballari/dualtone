@@ -1,5 +1,8 @@
 /* DualTone details block customizations
 ----------------------------------------------- */
+.wp-block-details summary {
+    border: 2px solid var(--wp--preset--color--base);
+}
 .wp-block-details summary:focus {
     border: 2px dashed var(--wp--preset--color--accent);
     outline: 0;
