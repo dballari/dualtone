@@ -15,6 +15,7 @@ DualTone is a two column layout blog with the sidebar on the left, as a tribute 
 == Changelog ==
 
 = 0.8.3 =
+* minor change to search form block style
 * calendar block customizations
 * added icon in theme sidebar search block
 * add long description to readme
