@@ -1,0 +1,7 @@
+/* DualTone code block customizations
+----------------------------------------------- */
+.wp-block-code code {
+    opacity: 0.70;
+    border: var(--wp--custom--border--thin) solid var(--wp--preset--color--accent);
+    padding: var(--wp--preset--spacing--025);
+}

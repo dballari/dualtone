@@ -72,6 +72,14 @@ input:focus { outline: 2px dashed var(--wp--preset--color--contrast); }
     outline: 4px dashed var(--wp--preset--color--base);
 }
 
+/* Selection
+--------------------------------------- */
+::-moz-selection,
+::selection {
+    color: var(--wp--preset--color--base);
+    background: var(--wp--preset--color--accent);
+}
+
 /* Form elements
 --------------------------------------- */
 select,
