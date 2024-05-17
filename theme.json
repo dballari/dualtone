@@ -235,7 +235,28 @@
             "core/buttons": {
                 "css": " & .wp-block-button__link {border-radius: 0px; background-color: var(--wp--preset--color--contrast);} & .is-style-accent .wp-block-button__link {background-color: var(--wp--preset--color--accent); & .is-style-dark .wp-block-button__link {background-color: var(--wp--preset--color--contrast); }"
             },
+            "core/comments": {
+                "elements": {
+                    "link": {
+                        "typography": {
+                            "textDecoration": "underline"
+                        }
+                    }
+                }
+            },
             "core/comments-pagination": {
+                "elements": {
+                    "link": {
+                        "typography": {
+                            "textDecoration": "none"
+                        },
+                        ":hover": {
+                            "typography": {
+                                "textDecoration": "underline"
+                            }
+                        }
+                    }
+                },
                 "css": " & a { background-color: var(--wp--preset--color--contrast); color: var(--wp--preset--color--base) !important; border-radius: 4px; padding: var(--wp--preset--spacing--025); }"
             },
             "core/cover": {
