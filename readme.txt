@@ -6,13 +6,16 @@ Requires PHP: 5.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
+A block editor WordPress theme based on user patterns—for creators.
+
 == Description ==
 
-A WordPress theme based on user patterns—for creators
+DualTone is a two column layout blog with the sidebar on the left, as a tribute to b2/cafelog, the origins of WordPress more than 20 years ago, which is also a two column layout blog. It has been designed for all type of creators and for users of all levels of expertise, from first time users to expert designers and developers. It also features a content wide page template for legal text, for instance, several custom block style variations, and blank templates for creating any type of content layout. With a simple and clean design, it lets your readers focus on your content. Includes two theme styles, one bright (the default one) and the other dark (the futuristic dark style). It’s and accessibility ready theme and last but not least, it suggests a new way to deal with template parts and synced user patterns, along with a theme options page to manage patterns in the block inserter, and two companion plugins.
 
 == Changelog ==
 
 = 0.8.3 =
+* add long description to readme
 * remove .gitkeep hidden files
 * remove dualtone admin footer text filter
 * added underline links in comments
@@ -40,6 +43,8 @@ This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
+
+== Resources ==
 
 Inter Font
 Copyright 2020 The Inter Project Authors (https://github.com/rsms/inter) 
