@@ -55,17 +55,3 @@ $dualtone_theme = new DualTone_Theme(
         'pattern_categories' => $categories
     ]
 );
-
-
-/**
- * Adds the theme settings page
- */
-if( is_admin() ) {
-    $settings_page = new DualTone_Settings( 'dualtone' );
-    if( isset( $_GET['page'] ) && $_GET['page'] == 'dualtone' ) {
-        add_filter( 'admin_footer_text', function($text) {
-            return '<span id="footer-thankyou">' . $text . 
-                __( ' And thank you for using the DualTone theme.</span>', 'dualtone');
-        }, 10, 99 );
-    }
-}
