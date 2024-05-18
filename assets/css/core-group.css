@@ -1,6 +1,6 @@
 /* DualTone group block customizations
 ------------------------------------------- */
-.wp-block-group.is-nowrap.is-layout-flex.is-style-baseline { 
+.wp-block-group.is-style-baseline { 
     align-items: baseline !important;
 }
 .wp-block-group.is-style-palette { 
