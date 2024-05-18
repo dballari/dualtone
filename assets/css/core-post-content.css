@@ -1,0 +1,18 @@
+/* DualTone postcontent block customizations
+------------------------------------------- */
+.wp-block-post-content a:not(.wp-element-button, [rel=\"tag\"]) {
+    text-decoration: underline;
+}
+
+.wp-block-post-content a:link:not([rel=\"tag\"], .wp-block-file__button) {
+    color: var(--wp--preset--color--accent);
+}
+
+.wp-block-post-content a.visited {
+    color: var(--wp--preset--color--accent-2) !important;
+}
+
+/* the unvisited class if just for demo purposes @TODO remove */
+.wp-block-post-content a.unvisited {
+    color: var(--wp--preset--color--accent);
+}
