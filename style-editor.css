@@ -1,8 +1,9 @@
 /* DualTone editor style
 ------------------------------------- */
 @media (min-width: 782px) {
-    .editor-styles-wrapper .is-style-sidebar-navigation {
-        max-width: var(--wp--custom--width--sidebar-size);
+    .editor-styles-wrapper .is-style-sidebar-navigation,
+    .editor-styles-wrapper .is-style-sidebar-navigation .wp-block-search {
+        max-width: 241.733px;
         margin: 0 auto;
     }
 }
