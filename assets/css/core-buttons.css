@@ -1,0 +1,8 @@
+/* DualTone buttons block customizations
+----------------------------------------------- */
+.wp-block-buttons .is-style-accent .wp-block-button__link {
+    background-color: var(--wp--preset--color--accent);
+}
+.wp-block-buttons .is-style-dark .wp-block-button__link {
+    background-color: var(--wp--preset--color--contrast);
+}
