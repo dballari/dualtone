@@ -15,6 +15,7 @@ DualTone is a two column layout blog with the sidebar on the left, as a tribute 
 == Changelog ==
 
 = 0.8.3 =
+* post title level 2 and remove theme in template part call
 * correct bug in vborder group stylevariation for the dark style
 * minor change to search form block style
 * calendar block customizations

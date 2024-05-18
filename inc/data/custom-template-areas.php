@@ -15,9 +15,9 @@
  $areas = [
     [
         'area' => 'sidebar',
-        'area_tag' => 'section',
+        'area_tag' => 'aside',
         'label' => __( 'Sidebar', 'dualtone' ),
-        'description' => __( 'Secondary area where logo, site title and navigation could be moved on a multiple column layout page.',
+        'description' => __( 'Secondary area where logo, site title and navigation could be moved to on a multiple column layout page.',
             'dualtone' ),
         'icon' => 'sidebar'
     ],
