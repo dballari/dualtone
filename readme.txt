@@ -1,5 +1,6 @@
 === DualTone ===
-Contributors: David Ballarin Prunera
+Contributors: dballari
+Donate link: https://pay.sumup.com/b2c/QSMR9X05
 Requires at least: 6.0
 Tested up to: 6.5
 Requires PHP: 5.7
