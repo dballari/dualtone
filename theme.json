@@ -64,7 +64,10 @@
             },
             "fluid": {
                 "16-67": "clamp(1rem, -4.9632rem + 12.201vi, 4.1875rem)",
-                "48-256": "clamp(3rem, -12.4498rem + 31.6109vi, 16rem);"
+                "48-256": "clamp(3rem, -12.4498rem + 31.6109vi, 16rem);",
+                "48-208": "clamp(3rem, -8.8845rem + 24.3161vi, 13rem)",
+                "48-128": "clamp(3rem, -2.9422rem + 12.1581vi, 8rem)",
+                "48-80": "clamp(3rem, 0.6231rem + 4.8632vi, 5rem)"
             },
             "fontWeight": {
                 "black": "900",
