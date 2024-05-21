@@ -30,6 +30,7 @@ $variations = [
     'core/group' => [
         'baseline' => __( 'AlignBaseline', 'dualtone' ),
         'palette' => __( 'Palette', 'dualtone' ),
-        'vborder' => __( 'VerticalBorder', 'dualtone' )
+        'vborder' => __( 'VerticalBorder', 'dualtone' ),
+        'width4' => __( 'Width 4', 'dualtone')
     ]
 ];

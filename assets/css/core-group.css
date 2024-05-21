@@ -12,3 +12,6 @@
     border-bottom: 1px solid var(--wp--preset--color--accent); 
     padding: 0 0 var(--wp--preset--spacing--10);
 }
+.wp-block-group.is-style-width4 {
+    max-width: 19.75rem;
+}
