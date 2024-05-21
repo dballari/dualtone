@@ -63,7 +63,8 @@
                 "thin": "0.00625rem"
             },
             "fluid": {
-                "16-67": "clamp(1rem, -4.9632rem + 12.201vi, 4.1875rem)"
+                "16-67": "clamp(1rem, -4.9632rem + 12.201vi, 4.1875rem)",
+                "48-256": "clamp(3rem, -12.4498rem + 31.6109vi, 16rem);"
             },
             "fontWeight": {
                 "black": "900",

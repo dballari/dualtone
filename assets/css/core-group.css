@@ -12,6 +12,17 @@
     border-bottom: 1px solid var(--wp--preset--color--accent); 
     padding: 0 0 var(--wp--preset--spacing--10);
 }
+
 .wp-block-group.is-style-width4 {
-    max-width: 19.75rem;
+    padding: 0;
+}
+
+@media screen and (width > 782px) {
+    .wp-block-group.is-style-width4 {
+        padding-left: var(--wp--custom--fluid--48-256);
+        padding-right: var(--wp--custom--fluid--48-256);
+    }
+    .wp-block-group.is-style-width4 > .wp-block-group {
+        max-width: 19.75rem;
+    }
 }
