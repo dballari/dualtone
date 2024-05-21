@@ -55,3 +55,11 @@ $dualtone_theme = new DualTone_Theme(
         'pattern_categories' => $categories
     ]
 );
+
+/**
+ * Adds the theme settings page
+ */
+if( is_admin() ) {
+    $settings_page = new DualTone_Settings( 'dualtone' );
+}
+
