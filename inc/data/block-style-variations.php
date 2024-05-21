@@ -31,7 +31,8 @@ $variations = [
         'baseline' => __( 'AlignBaseline', 'dualtone' ),
         'palette' => __( 'Palette', 'dualtone' ),
         'vborder' => __( 'VerticalBorder', 'dualtone' ),
+        'aborder' => __( 'AccentBorder', 'dualtone' ),
         'width4' => __( 'Width 4', 'dualtone'),
-        'width3' => __( 'Width 3', 'dualtone')
+        //'width3' => __( 'Width 3', 'dualtone')
     ]
 ];

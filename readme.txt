@@ -15,6 +15,9 @@ DualTone is a two column layout blog with the sidebar on the left, as a tribute 
 
 == Changelog ==
 
+= 0.8.5 =
+* added accent border stye variation to group & remove width3 & style summary
+
 = 0.8.4 =
 * changed some footer pattern text
 * added posts patterns

@@ -329,6 +329,9 @@
                 },
                 "css": "& button {border: 1px solid; padding: 4px;}"
             },
+            "core/details": {
+                "css": " & summary { font-weight: var(--wp--custom--font-weight--bold); }"
+            },
             "core/post-excerpt": {
                 "css": " & .wp-block-post-excerpt__more-link {font-weight: var(--wp--custom--font-weight--bolder);} & .wp-block-post-excerpt__more-link:hover {text-decoration: none;} & .wp-block-post-excerpt__more-link:visited { color: var(--wp--preset--color--accent-2); }"
             },

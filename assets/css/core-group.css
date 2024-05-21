@@ -30,3 +30,9 @@
         max-width: 26rem;
     }
 }
+
+.wp-block-group.is-style-aborder {
+    border: 1px solid var(--wp--preset--color--accent);
+    border-radius: 4px;
+    padding: var(--wp--preset--spacing--025) var(--wp--preset--spacing--050);
+}
