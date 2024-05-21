@@ -247,7 +247,7 @@ if ( ! class_exists( 'DualTone_Settings' ) )
         public function print_section_info_inserter()
         {
             print '<ul>';
-            print __( '<li>Choose \'none\' to see nothing but the theme & user patterns.</li>', 'dualtone' );
+            print __( '<li>Choose \'none\' to see no remote patterns at all.</li>', 'dualtone' );
             print __( '<li>Choose \'all\' if you want to see all remote patterns.</li>', 'dualtone' );
             print __( '<li>Choose \'only a list\' if you have a list of curated remote patterns. Go to <a target="_blank" target="patterns" href="https://wordpress.org/patterns/">WordPress patterns</a> to start making your list.</li>', 'dualtone' );
             print '</ul>';                

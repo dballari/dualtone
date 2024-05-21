@@ -16,6 +16,7 @@ DualTone is a two column layout blog with the sidebar on the left, as a tribute 
 == Changelog ==
 
 = 0.8.4 =
+* added services pattern and modified some text of the theme settings page
 * added width4 and width3 group block style variation
 
 = 0.8.3 =
