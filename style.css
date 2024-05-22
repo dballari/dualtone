@@ -99,10 +99,10 @@ textarea {
 /* Footer
 --------------------------------------- */
 @media screen and (max-width: 600px) {
-    .site-footer .footer-credits .is-content-justification-space-between {
+    .footer-credits .is-content-justification-space-between {
         flex-direction: column-reverse;
     }
-    .site-footer .footer-credits p.has-base-color:nth-child(1) {
+    .footer-credits p.has-base-color:nth-child(1) {
         text-align: center;
     }
 }

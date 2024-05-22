@@ -35,11 +35,6 @@
 		}
 	},
 	"styles": {
-		"elements": {
-			"link": {
-				
-			}
-		},
 		"blocks": {
 			"core/button": {
 				"css": "border-radius: 0px; background-color: var(--wp--preset--color--contrast);"
