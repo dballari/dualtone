@@ -16,6 +16,7 @@ DualTone is a two column layout blog with the sidebar on the left, as a tribute 
 == Changelog ==
 
 = 0.8.5 =
+* added nodecoration paragraph style variation
 * defined some color usage as custom vars
 * some style adjustments
 * added accent border stye variation to group & remove width3 & style summary

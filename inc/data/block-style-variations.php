@@ -34,5 +34,8 @@ $variations = [
         'aborder' => __( 'AccentBorder', 'dualtone' ),
         'width4' => __( 'Width 4', 'dualtone'),
         //'width3' => __( 'Width 3', 'dualtone')
-    ]
+    ],
+    'core/paragraph' => [
+        'nodecoration' => __( 'NoDecoration', 'dualtone' ),
+    ],
 ];
