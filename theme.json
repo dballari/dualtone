@@ -55,6 +55,16 @@
                     "color": "#551A8B",
                     "name": "Accent / Two",
                     "slug": "accent-2"
+                },
+                {
+                    "color": "#0000EE",
+                    "name": "Link",
+                    "slug": "linkcol"
+                },
+                {
+                    "color": "#551A8B",
+                    "name": "Link / Two",
+                    "slug": "linkcol-2"
                 }
             ]
         },
@@ -64,8 +74,8 @@
                 "normal": "1px"
             },
             "color": {
-                "link": "var(--wp--preset--color--accent)",
-                "linkVisited": "var(--wp--preset--color--accent-2)",
+                "link": "var(--wp--preset--color--linkcol)",
+                "linkVisited": "var(--wp--preset--color--linkcol-2)",
                 "background": "var(--wp--preset--color--base)",
                 "text": "var(--wp--preset--color--contrast)",
                 "buttonDefault": "var(--wp--preset--color--contrast)",
