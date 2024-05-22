@@ -20,7 +20,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>We start from scratch to create a beautiful site to meet all your goals!</p>
+<p>We start from scratch to create a beautiful site and meet all your goals!</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->

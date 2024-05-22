@@ -15,7 +15,7 @@
         padding-left: var(--wp--custom--fluid--16-67);
     }
     .is-style-sidebar-content .is-style-sidebar-left {
-        border-right: 0.00625rem solid;
+        border-right: var(--wp--custom--border--thin) solid;
     }
 }
 
