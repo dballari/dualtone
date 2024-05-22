@@ -5,14 +5,14 @@
 }
 
 .wp-block-post-content a:link:not([rel=\"tag\"], .wp-block-file__button, .wp-block-button a, .footer-credits a, .is-style-dark a) {
-    color: var(--wp--preset--color--accent);
+    color: var(--wp--preset--color--linkcol);
 }
 
 .wp-block-post-content a.visited {
-    color: var(--wp--preset--color--accent-2) !important;
+    color: var(--wp--preset--color--linkcol-2) !important;
 }
 
 /* the unvisited class if just for demo purposes @TODO remove */
 .wp-block-post-content a.unvisited {
-    color: var(--wp--preset--color--accent);
+    color: var(--wp--preset--color--linkcol);
 }

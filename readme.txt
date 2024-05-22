@@ -16,6 +16,7 @@ DualTone is a two column layout blog with the sidebar on the left, as a tribute 
 == Changelog ==
 
 = 0.8.5 =
+* post content link color
 * some change to link color in footer
 * added nodecoration paragraph style variation
 * defined some color usage as custom vars
