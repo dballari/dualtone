@@ -26,4 +26,4 @@ In order to reproduce the demo site you are adviced to follow the steps explaine
 
 ## Additional documentations
 
-You will find information in [Dualtone home page](https://ballarinconsulting.com/dualtone/).
+You will find more information in [Dualtone home page](https://ballarinconsulting.com/dualtone/).
