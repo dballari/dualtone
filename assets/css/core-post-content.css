@@ -1,6 +1,6 @@
 /* DualTone post content block customizations
 ------------------------------------------- */
-.wp-block-post-content a:not(.wp-element-button, [rel=\"tag\"], .is-style-nodecoration a, .footer-credits a) {
+.wp-block-post-content a:not(.wp-element-button, [rel=\"tag\"], .is-style-nodecoration a, .footer-credits a, .post-navigation-link-previous a, .post-navigation-link-next a, .wp-block-post-terms a) {
     text-decoration: underline;
 }
 
