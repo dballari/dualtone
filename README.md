@@ -1,8 +1,6 @@
 # DualTone
 
-The DualTone WordPress theme is a two-column (sidebar on the left) blog for creators. It can either be used for content creators or design creators (web designers) or theme creators (web developers), to craft beautiful web pages based on user patterns.
-
-The DualTone theme simplifies content creation by heavily relying on user patterns and assigning a template area in all places of a template where user content may be added.
+DualTone is a two column layout blog with sticky sidebar on the left, as a tribute to b2/cafelog, the origins of WordPress more than 20 years ago, which is also a two column layout blog. It has been designed for all type of creators and for users of all levels of expertise, from first time users to expert designers and developers. It also features a content wide page template for legal text, a blank template for creating any type of content layout and several custom block style variations. With a simple and clean design, it lets your readers focus on your content. Includes two theme styles, one bright (the default one) and the other dark (the futuristic dark style). It’s and accessibility ready theme and last but not least, it suggests a new way to deal with template parts and synced user patterns, along with a theme options page to manage patterns in the block inserter, and two companion plugins.
 
 ## Demo
 
@@ -28,4 +26,4 @@ In order to reproduce the demo site you are adviced to follow the steps explaine
 
 ## Additional documentations
 
-You will find everything you need to know about the DualTone theme in [BC Themes](https://ballarinconsulting.com/themes). Pleas be a little pacient as most of the content is just being created.
+You will find information in the DualTone theme in [BC Themes](https://ballarinconsulting.com/themes).
