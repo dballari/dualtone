@@ -102,7 +102,7 @@ textarea {
     .footer-credits .is-content-justification-space-between {
         flex-direction: column-reverse;
     }
-    .footer-credits p.has-base-color:nth-child(1) {
+    .footer-credits p:nth-child(1) {
         text-align: center;
     }
 }
