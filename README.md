@@ -26,4 +26,4 @@ In order to reproduce the demo site you are adviced to follow the steps explaine
 
 ## Additional documentations
 
-You will find information in the DualTone theme in [BC Themes](https://ballarinconsulting.com/themes).
+You will find information in [Dualtone home page](https://ballarinconsulting.com/dualtone/).
