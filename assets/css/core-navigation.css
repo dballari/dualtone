@@ -49,5 +49,5 @@
 }
 
 .wp-block-navigation:not(.has-text-color) .wp-block-navigation__responsive-container.is-menu-open {
-    color: var(--wp--preset--color--contrast);
+    color: var(--wp--custom--color--responsive-menu-overlay-text);
 }

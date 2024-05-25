@@ -90,7 +90,8 @@
                 "formsBorder": "var(--wp--preset--color--contrast)",
                 "selection": "#00DD00",
                 "selectionText": "#000",
-                "responsiveMenuOverlay": "var(--wp--preset--color--base)"
+                "responsiveMenuOverlay": "var(--wp--preset--color--base)",
+                "responsiveMenuOverlayText": "var(--wp--preset--color--contrast)"
             },
             "fluid": {
                 "16-67": "clamp(1rem, -4.9632rem + 12.201vi, 4.1875rem)",

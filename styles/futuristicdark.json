@@ -32,7 +32,7 @@
 				"link": "var(--wp--preset--color--accent)",
                 "linkVisited": "var(--wp--preset--color--accent-2)",
                 "background": "var(--wp--preset--color--base)",
-                "text": "var(--wp--preset--color--accent)",
+                "text": "var(--wp--preset--color--accent-2)",
                 "buttonDefault": "var(--wp--preset--color--contrast)",
                 "buttonDefaultText": "var(--wp--preset--color--base)",
                 "buttonAccent": "var(--wp--preset--color--accent)",
@@ -45,7 +45,8 @@
                 "formsBorder": "var(--wp--preset--color--contrast)",
                 "selection": "#00DD00",
                 "selectionText": "#000",
-                "responsiveMenuOverlay": "var(--wp--preset--color--base)"
+                "responsiveMenuOverlay": "var(--wp--preset--color--base)",
+				"responsiveMenuOverlayText": "var(--wp--preset--color--accent-2)"
 			},
 			"fontWeight": {
 				"default": "150",
