@@ -28,9 +28,28 @@
 			]
 		},
 		"custom": {
+			"color": {
+				"link": "var(--wp--preset--color--accent)",
+                "linkVisited": "var(--wp--preset--color--accent-2)",
+                "background": "var(--wp--preset--color--base)",
+                "text": "var(--wp--preset--color--accent)",
+                "buttonDefault": "var(--wp--preset--color--contrast)",
+                "buttonDefaultText": "var(--wp--preset--color--base)",
+                "buttonAccent": "var(--wp--preset--color--accent)",
+                "buttonAccentText": "var(--wp--preset--color--base)",
+                "siteTitle": "var(--wp--preset--color--contrast)",
+                "separator": "var(--wp--preset--color--accent)",
+                "excerptLink": "var(--wp--preset--color--accent)",
+                "forms": "var(--wp--preset--color--base)",
+                "formsText": "var(--wp--preset--color--contrast)",
+                "formsBorder": "var(--wp--preset--color--contrast)",
+                "selection": "#00DD00",
+                "selectionText": "#000",
+                "responsiveMenuOverlay": "var(--wp--preset--color--base)"
+			},
 			"fontWeight": {
 				"default": "150",
-				"semiBold": "330"
+				"semiBold": "350"
 			}
 		}
 	},

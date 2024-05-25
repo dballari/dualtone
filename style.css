@@ -7,7 +7,7 @@ Description: DualTone is a two column layout blog with sticky sidebar on the lef
 Requires at least: 6.0
 Tested up to: 6.5
 Requires PHP: 5.7
-Version: 0.8.6
+Version: 0.8.7
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: dualtone
@@ -95,6 +95,23 @@ textarea {
     width: 100%;
 }
 
+/* Font weight helper classes
+--------------------------------------- */
+.is-weight-black {
+    font-weight: var(--wp--custom--font-weight--black);
+}
+.is-weight-bold {
+    font-weight: var(--wp--custom--font-weight--bold);
+}
+.is-weight-bolder {
+    font-weight: var(--wp--custom--font-weight--bolder);
+}
+.is-weight-semi-bold {
+    font-weight: var(--wp--custom--font-weight--semi-bold);
+}
+.is-weight-semi-black {
+    font-weight: var(--wp--custom--font-weight--semi-black);
+}
 
 /* Footer
 --------------------------------------- */

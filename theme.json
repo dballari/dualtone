@@ -89,7 +89,8 @@
                 "formsText": "var(--wp--preset--color--contrast)",
                 "formsBorder": "var(--wp--preset--color--contrast)",
                 "selection": "#00DD00",
-                "selectionText": "#000"
+                "selectionText": "#000",
+                "responsiveMenuOverlay": "var(--wp--preset--color--base)"
             },
             "fluid": {
                 "16-67": "clamp(1rem, -4.9632rem + 12.201vi, 4.1875rem)",
@@ -103,6 +104,7 @@
                 "bold": "450",
                 "bolder": "680",
                 "default": "280",
+                "semiBold": "350",
                 "semiBlack": "800"
             },
             "gap": {
@@ -399,7 +401,7 @@
         },
         "color": {
             "background": "var(--wp--custom--color--background)",
-            "text": "var(--wp--custom--color-text)"
+            "text": "var(--wp--custom--color--text)"
         },
         "css": "html {scroll-behavior: smooth;} figcaption { text-align: center;} figcaption:not(.blocks-gallery-caption) { padding-top: var(--wp--preset--spacing--050);} ",
         "elements": {
