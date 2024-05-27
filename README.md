@@ -4,7 +4,7 @@ DualTone is a two column layout blog with sticky sidebar on the left, as a tribu
 
 ## Demo
 
-You can accedd the DualTone demo sites from here [DualTone home](https://ballarinconsulting.com/dualtone) or you can just reproduce the demo site by importing the demo xml file into a clean WordPress installation (soon to be provided).
+You can access the DualTone demo sites from the [DualTone home](https://ballarinconsulting.com/dualtone) or you can just reproduce the demo site by importing the demo xml file (soon to be provided) into a clean WordPress installation.
 
 ## Requirements
 
