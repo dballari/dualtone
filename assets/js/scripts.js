@@ -42,7 +42,7 @@ function activateGoBackLinks(elementSelector) {
 
 
 /**
- * Function to goe back in history or close a tab
+ * Function to go back in history or close a tab
  */
 function goBack() {
     if (window.history.length > 1) {
