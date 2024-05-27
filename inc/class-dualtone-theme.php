@@ -6,7 +6,7 @@
  * @package	DualTone Theme
  * @author	David Ballarin Prunera
  * @license	GNU General Public License v3
- * @link	https://ballarinconsulting.com/themes
+ * @link	https://ballarinconsulting.com/dualtone
  */
 
 if ( ! class_exists( 'DualTone_Theme' ) )
