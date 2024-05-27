@@ -4,7 +4,7 @@ DualTone is a two column layout blog with sticky sidebar on the left, as a tribu
 
 ## Demo
 
-You can see the DualTone demo here [DualTone demo](https://ballarinconsulting.com/demo-dualtone) or you can just reproduce the demo site by importing the demo xml file into a clean WordPress installation.
+You can accedd the DualTone demo sites from here [DualTone home](https://ballarinconsulting.com/dualtone) or you can just reproduce the demo site by importing the demo xml file into a clean WordPress installation (soon to be provided).
 
 ## Requirements
 
@@ -23,6 +23,8 @@ In order to reproduce the demo site you are adviced to follow the steps explaine
 2. Install the SAHMI companion plugin that you will find here: [SAHMI plugin—Simply Add Hidden Menu Items](https://github.com/dballari/sahmi).
 3. With a clean installation, that is, a WordPress installation that only has the hello world post and the sample page as content, you can just import the xml file you will find in the assets/xml folder of the DualTone theme, using the WordPress import tool. If you have much more content in your WordPress installation the references of some synced patterns or menus may be changed, but it's ok because the SAHMI plugin takes care of this by replacing the references to those ids in your recently imported content.
 4. You are done! Enjoy the experience of owning your content and being able to create, manage and publish it.
+
+Note: the xml file is still not available, since the theme has not been approved yet by the theme review team, and will be provided once the theme is publicly available. In the mean time you can just send me an email using my [contact form](https://ballarinconsulting.com/contact) to ask for it.
 
 ## Additional documentations
 
