@@ -19,25 +19,28 @@ require_once 'inc/data/custom-template-areas.php';
 require_once 'inc/data/scripts.php';
 require_once 'inc/data/theme-pattern-categories.php';
 
+$styles = ['style.css'];
 
 /**
  * Add theme development utilities
  */
-if( WP_DEVELOPMENT_MODE == 'theme' && DT_HIGHLIGHT_PARTS ) {
-    add_filter( 'body_class','dualtone_highlight_parts' );
-    $styles = ['style.css', 'style-debug.css'];
-} else {
-    $styles = ['style.css'];
+if( defined( "DT_HIGHLIGHT_PARTS") ) {
+    if( WP_DEVELOPMENT_MODE == 'theme' && DT_HIGHLIGHT_PARTS ) {
+        add_filter( 'body_class','dualtone_highlight_parts' );
+        $styles = ['style.css', 'style-debug.css'];
+    }
 }
 function dualtone_highlight_parts( $classes ) {
     $classes[] = 'highlight-parts';
     return $classes;
 }
-if ( WP_ENVIRONMENT_TYPE =='demo' || WP_ENVIRONMENT_TYPE =='local' ) {
-    add_filter( 'body_class', function( $classes ) {
-        $classes[] = 'demo';
-        return $classes;
-    });
+if ( defined( "WP_ENVIRONMENT_TYPE" ) ) {
+    if( WP_ENVIRONMENT_TYPE =='demo' || WP_ENVIRONMENT_TYPE =='local' ) {
+        add_filter( 'body_class', function( $classes ) {
+            $classes[] = 'demo';
+            return $classes;
+        });
+    }
 }
 
 

@@ -15,6 +15,9 @@ DualTone is a two column layout blog with sticky sidebar on the left, as a tribu
 
 == Changelog ==
 
+= 0.9.1 =
+* fixed WP_ENVIRONMENT_TYPE bug in functions file
+
 = 0.9.0 =
 * last minor changes before submitting the theme for review
 
