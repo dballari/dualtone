@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
     findEmptyElements('.wp-block-template-part');
     findEmptyElements('.wp-block-post-navigation-link');
     watchSearchInputFocus('wp-block-search__input', 'wp-block-search__focused');
+    addAriaLabelToNewTabLinks();
 });
 
 
@@ -103,5 +104,22 @@ function watchSearchInputFocus(inputClass, formClassToAdd) {
                 form.classList.remove(formClassToAdd);
             }
         });
+    });
+}
+
+/**
+ * Adds aria-label tag to links that open in new tab
+ */
+function addAriaLabelToNewTabLinks() {
+    // Select all links on the page
+    const links = document.querySelectorAll('a');
+
+    // Loop through each link
+    links.forEach(link => {
+        // Check if the link has a target attribute that is either _blank or blank
+        if (link.target === '_blank' || link.target === 'blank') {
+            // Add the aria-label attribute with the specified text
+            link.setAttribute('aria-label', 'This link opens in a new tab');
+        }
     });
 }

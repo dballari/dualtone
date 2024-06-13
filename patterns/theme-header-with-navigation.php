@@ -9,7 +9,7 @@
 <aside class="wp-block-group"><!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"center"}} -->
 <div class="wp-block-group"><!-- wp:site-logo {"width":60,"shouldSyncIcon":false} /-->
 
-<!-- wp:site-title {"fontSize":"large"} /--></div>
+<!-- wp:site-title {"level":0,"fontSize":"large"} /--></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"metadata":{"name":"navigation-wrap"},"style":{"spacing":{"padding":{"top":"var:preset|spacing|050"}}},"layout":{"type":"default"}} -->

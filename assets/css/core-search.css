@@ -5,7 +5,7 @@
 }
 
 .wp-block-search__focused {
-    outline: 2px dashed var(--wp--preset--color--accent);
+    outline: 2px;
 }
 .wp-block-search .wp-block-search__input {
     color: var(--wp--preset--color--contrast);

@@ -15,6 +15,13 @@ DualTone is a two column layout blog with sticky sidebar on the left, as a tribu
 
 == Changelog ==
 
+= 0.9.2 =
+* fix issues and suggestions found during the accessibility review which are the following:
+* add aria-label tag to links that open in new tab
+* make post title and page title H1
+* don’t set a focus outline color; use the system default
+* add border bottom in dropdown menu items
+
 = 0.9.1 =
 * fixed WP_ENVIRONMENT_TYPE bug in functions file
 

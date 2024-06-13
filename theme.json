@@ -380,6 +380,9 @@
                 "css": "background-color: var(--wp--custom--color--button-default); color: var(--wp--custom--color--button-default-text) !important; border-radius: 4px; padding: var(--wp--preset--spacing--025);"
             },
             "core/site-title": {
+                "typography": {
+                    "fontWeight": "var(--wp--custom--font-weight--black);"
+                },
                 "elements": {
                     "link": {
                         ":any-link": {
