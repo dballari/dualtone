@@ -24,7 +24,17 @@
 					"color": "#92B7C4",
 					"name": "Accent / Two",
 					"slug": "accent-2"
-				}
+				},
+				{
+                    "color": "#00BBCC",
+                    "name": "Link",
+                    "slug": "linkcol"
+                },
+                {
+                    "color": "#92B7C4",
+                    "name": "Link / Two",
+                    "slug": "linkcol-2"
+                }
 			]
 		},
 		"custom": {
