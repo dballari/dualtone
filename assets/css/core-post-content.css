@@ -12,7 +12,7 @@
     color: var(--wp--preset--color--linkcol-2) !important;
 }
 
-/* the unvisited class if just for demo purposes @TODO remove */
+/* the unvisited class is just for demo purposes */
 .wp-block-post-content a.unvisited {
-    color: var(--wp--preset--color--linkcol);
+    color: var(--wp--preset--color--linkcol) !important;
 }
