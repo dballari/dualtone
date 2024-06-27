@@ -16,6 +16,7 @@ DualTone is a two column layout blog with sticky sidebar on the left, as a tribu
 == Changelog ==
 
 = 0.9.5 =
+* modify README.md description to match style.css and readme.txt description
 * replaced some dummy content with translatable strings
 
 = 0.9.4 = 
