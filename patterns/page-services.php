@@ -16,11 +16,11 @@
 <div class="wp-block-columns" style="border-top-color:var(--wp--preset--color--accent);border-top-width:2px;margin-top:var(--wp--preset--spacing--20);padding-top:var(--wp--preset--spacing--10)"><!-- wp:column {"width":"48%"} -->
 <div class="wp-block-column" style="flex-basis:48%"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|025"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:heading {"level":4} -->
-<h4 class="wp-block-heading">Web design &amp; development</h4>
+<h4 class="wp-block-heading"><?php esc_html_e( 'Web design &amp; development', 'dualtone' ); ?></h4>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>We start from scratch to create a beautiful site and meet all your goals!</p>
+<p><?php esc_html_e( 'We start from scratch to create a beautiful site and meet all your goals!', 'dualtone' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
@@ -38,11 +38,11 @@
 <!-- wp:column {"width":"48%"} -->
 <div class="wp-block-column" style="flex-basis:48%"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|025"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:heading {"textAlign":"center","level":4} -->
-<h4 class="wp-block-heading has-text-align-center">Training and consultation</h4>
+<h4 class="wp-block-heading has-text-align-center"><?php esc_html_e( 'Training and consultation', 'dualtone' ); ?></h4>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center">Learn all you need to know to manage your site and get traffic!</p>
+<p class="has-text-align-center"><?php esc_html_e( 'Learn all you need to know to manage your site and get traffic!', 'dualtone' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
@@ -60,11 +60,11 @@
 <!-- wp:column {"width":"48%"} -->
 <div class="wp-block-column" style="flex-basis:48%"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|025"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:heading {"textAlign":"right","level":4} -->
-<h4 class="wp-block-heading has-text-align-right">Theme setup service</h4>
+<h4 class="wp-block-heading has-text-align-right"><?php esc_html_e( 'Theme setup service', 'dualtone' ); ?></h4>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"right"} -->
-<p class="has-text-align-right">Get your domain registered, your hosting contracted and your theme ready to go!</p>
+<p class="has-text-align-right"><?php esc_html_e( 'Get your domain registered, your hosting contracted and your theme ready to go!', 'dualtone' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>

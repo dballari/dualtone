@@ -13,9 +13,9 @@
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>The DualTone theme is a two column sidebar content layout, that's why you can't use wide and full alignments on posts or pages that use the default layout.</p>
+<p><?php esc_html_e( 'The DualTone theme is a two column sidebar content layout, that\'s why you can\'t use wide and full alignments on posts or pages that use the default layout.', 'dualtone' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>On the other hand, you can make a picture expand by choosing the 'expand on click' option of the link toobar button.</p>
+<p><?php esc_html_e( 'On the other hand, you can make a picture expand by choosing the \'expand on click\' option of the link toobar button.', 'dualtone' ); ?></p>
 <!-- /wp:paragraph -->
