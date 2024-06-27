@@ -15,6 +15,9 @@ DualTone is a two column layout blog with sticky sidebar on the left, as a tribu
 
 == Changelog ==
 
+= 0.9.4 = 
+* remove accessibility tag
+
 = 0.9.3 =
 * fix futuristic dark link col bug
 
