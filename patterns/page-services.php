@@ -9,7 +9,7 @@
  */
 ?>
 <!-- wp:paragraph -->
-<p>Nam blandit sapien id nibh congue, ac placerat tortor tincidunt. Quisque id neque placerat, consequat nulla quis, lacinia mauris. Praesent semper lectus sed dolor tempus semper.</p>
+<p><?php esc_html_e( 'Hi creator! Go ahead and replace this paragraph by your own text. You may place here some introduction to the services you offer.', 'dualtone' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:columns {"style":{"spacing":{"margin":{"top":"var:preset|spacing|20"},"padding":{"top":"var:preset|spacing|10"},"blockGap":{"top":"0"}},"border":{"top":{"color":"var:preset|color|accent","width":"2px"}}}} -->
@@ -75,7 +75,7 @@
 <!-- /wp:spacer -->
 
 <!-- wp:paragraph -->
-<p>Nam blandit sapien id nibh congue, ac placerat tortor tincidunt. Quisque id neque placerat, consequat nulla quis, lacinia mauris. Praesent semper lectus sed dolor tempus semper.</p>
+<p><?php esc_html_e( 'Hi creator! place here your final words about the services you offer. Modify font size if you wish. After this paragraph, you will find some symbols. They are Unicode symbols and you may change them by searching Unicode characters on the Internet and looking at all the possibilities you have.', 'dualtone' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"center","fontSize":"x-large"} -->

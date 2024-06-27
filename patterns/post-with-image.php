@@ -9,7 +9,7 @@
  */
 ?>
 <!-- wp:image {"lightbox":{"enabled":true},"id":109,"sizeSlug":"large","linkDestination":"none","style":{"color":[]},"className":"is-style-default"} -->
-<figure class="wp-block-image size-large is-style-default"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/29577251796_38fd07f97f_k_scaled.webp') ); ?>" alt="example image" class="wp-image-109"/><figcaption class="wp-element-caption">This is an image caption</figcaption></figure>
+<figure class="wp-block-image size-large is-style-default"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/29577251796_38fd07f97f_k_scaled.webp') ); ?>" alt="example image" class="wp-image-109"/><figcaption class="wp-element-caption"><?php esc_html_e( 'This is an image caption', 'dualtone' ); ?></figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->

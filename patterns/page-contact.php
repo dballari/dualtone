@@ -9,7 +9,7 @@
  */
 ?>
 <!-- wp:paragraph -->
-<p>Proin malesuada diam nisi, ac sagittis lacus vulputate in. Praesent vel luctus nulla. Donec sit amet urna id massa euismod posuere. Nulla mattis ornare magna aliquet placerat. Integer non tincidunt felis.</p>
+<p><?php esc_html_e( 'Hi creator! Go ahead and replace this paragraph by your own text. You may place here some introduction to the preferred ways people have for contacting you.', 'dualtone' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:columns {"style":{"spacing":{"margin":{"top":"var:preset|spacing|20"},"padding":{"top":"var:preset|spacing|025","bottom":"var:preset|spacing|025"}},"border":{"bottom":{"color":"var:preset|color|accent","width":"2px"}}}} -->
@@ -21,7 +21,7 @@
 
 <!-- wp:column {"width":"66.66%"} -->
 <div class="wp-block-column" style="flex-basis:66.66%"><!-- wp:paragraph {"align":"left"} -->
-<p class="has-text-align-left">+34 688 888 889</p>
+<p class="has-text-align-left"><?php esc_html_e( '+34 688 888 889', 'dualtone' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
@@ -65,7 +65,7 @@
 <!-- /wp:spacer -->
 
 <!-- wp:paragraph {"fontSize":"large"} -->
-<p class="has-large-font-size">Maecenas id maximus ipsum, sit amet volutpat erat. Duis imperdiet non quam nec molestie!</p>
+<p><?php esc_html_e( 'Hi creator! place here your final words on contact information. Modify font size if you wish. After this paragraph, you will find some symbols. They are Unicode symbols and you may change them by searching Unicode characters on the Internet and looking at all the possibilities you have.', 'dualtone' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"center","fontSize":"x-large"} -->
