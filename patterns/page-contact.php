@@ -35,7 +35,7 @@
 
 <!-- wp:column {"width":"66.66%"} -->
 <div class="wp-block-column" style="flex-basis:66.66%"><!-- wp:paragraph {"align":"left"} -->
-<p class="has-text-align-left">hello (at) mydomain (d∘t) com</p>
+<p class="has-text-align-left"><?php esc_html_e( 'hello (at) mydomain (d∘t) com', 'dualtone' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
