@@ -12,8 +12,8 @@
 /**
  * Include required files from inc folder
  */
-require_once 'inc/class-dualtone-theme.php';
-require_once 'inc/class-dualtone-settings.php';
+require_once 'inc/theme/class-dualtone-theme.php';
+require_once 'inc/settings/class-dualtone-settings.php';
 require_once 'inc/data/block-style-variations.php';
 require_once 'inc/data/custom-template-areas.php';
 require_once 'inc/data/scripts.php';

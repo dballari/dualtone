@@ -1,0 +1,6 @@
+[submodule "inc/theme"]
+	path = inc/theme
+	url = git@github.com:dballari/dualtone-theme.git
+[submodule "inc/settings"]
+	path = inc/settings
+	url = git@github.com:dballari/dualtone-settings.git
