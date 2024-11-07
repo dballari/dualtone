@@ -36,7 +36,7 @@
 		},
 		"custom": {
 			"color": {
-				"textAccentSection": "var(--wp--preset--color--contrast)"
+				"textAccentSection": "var(--wp--custom--color--text-accent-section)"
 			},
 			"fontWeight": {
 				"default2": "150",
