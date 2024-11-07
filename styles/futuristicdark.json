@@ -1,7 +1,7 @@
 {
 	"title": "Futuristic Dark",
-	"version": 2,
-	"$schema": "https://schemas.wp.org/wp/6.5/theme.json",
+	"version": 3,
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
 	"settings": {
 		"color": {
 			"palette": [

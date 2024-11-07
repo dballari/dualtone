@@ -77,7 +77,9 @@
                 "link": "var(--wp--preset--color--linkcol)",
                 "linkVisited": "var(--wp--preset--color--linkcol-2)",
                 "background": "var(--wp--preset--color--base)",
+                "backgroundAccentSection": "var(--wp--preset--color--accent)",
                 "text": "var(--wp--preset--color--contrast)",
+                "textAccentSection": "var(--wp--preset--color--base)",
                 "buttonDefault": "var(--wp--preset--color--contrast)",
                 "buttonDefaultText": "var(--wp--preset--color--base)",
                 "buttonAccent": "var(--wp--preset--color--accent)",
@@ -89,7 +91,7 @@
                 "formsText": "var(--wp--preset--color--contrast)",
                 "formsBorder": "var(--wp--preset--color--contrast)",
                 "selection": "#00DD00",
-                "selectionText": "#000",
+                "selectionText": "var(--wp--preset--color--contrast)",
                 "responsiveMenuOverlay": "var(--wp--preset--color--base)",
                 "responsiveMenuOverlayText": "var(--wp--preset--color--contrast)"
             },
