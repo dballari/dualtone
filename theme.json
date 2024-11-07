@@ -138,9 +138,6 @@
             "wideSize": "var(--wp--custom--width--wide-size)"
         },
         "spacing": {
-            "spacingScale": {
-                "steps": 0
-            },
             "spacingSizes": [
                 {
                     "name": "0.25 (normal / 4)",
@@ -577,6 +574,6 @@
             "title": "Error 404"
         }
     ],
-    "version": 2,
-    "$schema": "https://schemas.wp.org/wp/6.5/theme.json"
+    "version": 3,
+    "$schema": "https://schemas.wp.org/trunk/theme.json"
 }

@@ -1,9 +1,9 @@
 === DualTone ===
 Contributors: dballari
 Donate link: https://pay.sumup.com/b2c/QSMR9X05
-Requires at least: 6.0
-Tested up to: 6.5
-Requires PHP: 5.7
+Requires at least: 6.7
+Tested up to: 6.7
+Requires PHP: 8.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -14,6 +14,9 @@ A block editor WordPress theme based on user patterns—for creators.
 DualTone is a two column layout blog with sticky sidebar on the left, as a tribute to b2/cafelog, the origins of WordPress more than 21 years ago, which is also a two column layout blog. It features a content wide page template for legal text, a blank template for creating any type of content layout and several custom block style variations. With a simple and clean design, it lets your readers focus on your content. Includes two theme styles, one bright (the default one) and the other dark (the futuristic dark style).
 
 == Changelog ==
+
+= 1.0.0 =
+* updated theme.json to v3
 
 = 0.9.6 =
 * add theme and settings class as submodules
