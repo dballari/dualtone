@@ -192,6 +192,7 @@
             ]
         },
         "typography": {
+            "defaultFontSizes": false,
             "fontFamilies": [
                 {
                     "fontFace": [
