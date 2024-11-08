@@ -65,4 +65,3 @@ $dualtone_theme = new DualTone_Theme(
 if( is_admin() ) {
     $settings_page = new DualTone_Settings( 'dualtone' );
 }
-
