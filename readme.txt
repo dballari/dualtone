@@ -16,6 +16,10 @@ DualTone is a two column layout blog with sticky sidebar on the left, as a tribu
 == Changelog ==
 
 = 1.0.0 =
+* add writing mode to true
+* set default Duotone and default gradients to false
+* add defaultSpacingSizes to false in themejson to fix issue related to v3
+* add defaultFontSizes false in theme.json so sizes are correctly show
 * updated theme.json to v3
 
 = 0.9.6 =
