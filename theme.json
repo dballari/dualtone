@@ -140,6 +140,7 @@
             "wideSize": "var(--wp--custom--width--wide-size)"
         },
         "spacing": {
+            "defaultSpacingSizes": false,
             "spacingSizes": [
                 {
                     "name": "0.25 (normal / 4)",
