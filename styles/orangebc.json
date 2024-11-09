@@ -13,12 +13,12 @@
                     "slug": "contrast"
                 },
 				{
-					"color": "#f39200",
+					"color": "#F39200",
 					"name": "Accent",
 					"slug": "accent"
 				},
 				{
-                    "color": "#551A8B",
+                    "color": "#FCE8CB",
                     "name": "Accent / Two",
                     "slug": "accent-2"
                 },
