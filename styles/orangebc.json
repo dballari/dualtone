@@ -39,11 +39,16 @@
 				"textAccentSection": "var(--wp--custom--color--text-accent-section)"
 			},
 			"fontWeight": {
-				"default2": "150",
-				"semiBold2": "350"
+				"defaultAccent": "350"
 			}
 		}
 	},
+	"styles": {
+		"typography": {
+			"fontWeight": "var(--wp--custom--font-weight--default-accent)"
+		}
+	},
 	"version": 3,
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"title": "Orange BC"
 }
