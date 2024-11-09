@@ -109,6 +109,7 @@
                 "bold": "450",
                 "bolder": "680",
                 "default": "280",
+                "defaultAccent": "280",
                 "semiBold": "350",
                 "semiBlack": "800"
             },

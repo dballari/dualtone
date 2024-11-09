@@ -22,6 +22,9 @@
                     "text": "var(--wp--custom--color--text-accent-section)"
                 }
             }
-        }
+        },
+        "typography": {
+			"fontWeight": "var(--wp--custom--font-weight--default-accent)"
+		}
     }
 }

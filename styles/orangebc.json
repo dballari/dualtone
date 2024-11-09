@@ -38,14 +38,9 @@
 			"color": {
 				"textAccentSection": "var(--wp--custom--color--text-accent-section)"
 			},
-			"fontWeight": {
+       		"fontWeight": {
 				"defaultAccent": "350"
-			}
-		}
-	},
-	"styles": {
-		"typography": {
-			"fontWeight": "var(--wp--custom--font-weight--default-accent)"
+        	}
 		}
 	},
 	"version": 3,
