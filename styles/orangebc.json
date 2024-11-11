@@ -8,7 +8,7 @@
                     "slug": "base"
                 },
                 {
-                    "color": "#000",
+                    "color": "#1D1D1B",
                     "name": "Contrast",
                     "slug": "contrast"
                 },
@@ -36,7 +36,8 @@
 		},
 		"custom": {
 			"color": {
-				"textAccentSection": "var(--wp--preset--color--contrast)"
+				"textAccentSection": "var(--wp--preset--color--contrast)",
+				"textContrastSection": "var(--wp--preset--color--base)"
 			},
        		"fontWeight": {
 				"defaultAccent": "350"

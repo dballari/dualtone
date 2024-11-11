@@ -16,6 +16,14 @@ DualTone is a two column layout blog with sticky sidebar on the left, as a tribu
 == Changelog ==
 
 = 1.0.0 =
+* updated readme file
+* remove dark button block style variation since it is the same as fill
+* add section-2 contrast
+* modify contrast color of orange style variation
+* added accent two color to orange style variation
+* added teal and coral style variations
+* modify footer to be accent section
+* adjust accent section font weight
 * add writing mode to true
 * set default Duotone and default gradients to false
 * add defaultSpacingSizes to false in themejson to fix issue related to v3

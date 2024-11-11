@@ -80,8 +80,10 @@
                 "linkVisited": "var(--wp--preset--color--linkcol-2)",
                 "background": "var(--wp--preset--color--base)",
                 "backgroundAccentSection": "var(--wp--preset--color--accent)",
+                "backgroundContrastSection": "var(--wp--preset--color--contrast)",
                 "text": "var(--wp--preset--color--contrast)",
                 "textAccentSection": "var(--wp--preset--color--base)",
+                "textContrastSection": "var(--wp--preset--color--base)",
                 "buttonDefault": "var(--wp--preset--color--contrast)",
                 "buttonDefaultText": "var(--wp--preset--color--base)",
                 "buttonAccent": "var(--wp--preset--color--accent)",
@@ -110,6 +112,7 @@
                 "bolder": "680",
                 "default": "280",
                 "defaultAccent": "280",
+                "defaultContrast": "280",
                 "semiBold": "350",
                 "semiBlack": "800"
             },

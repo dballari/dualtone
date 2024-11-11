@@ -4,7 +4,7 @@
     text-decoration: underline;
 }
 
-.wp-block-post-content a:link:not([rel=\"tag\"], .wp-block-file__button, .wp-block-button a, .footer-credits a, .is-style-dark a) {
+.wp-block-post-content a:link:not([rel=\"tag\"], .wp-block-file__button, .wp-block-button a, .footer-credits a, .is-style-fill a) {
     color: var(--wp--preset--color--linkcol);
 }
 

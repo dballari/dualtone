@@ -70,7 +70,7 @@
 				"css": "border-radius: 0px; background-color: var(--wp--custom--color--button-default);"
 			},
 			"core/buttons": {
-				"css": " & .is-style-dark .wp-block-button__link { background-color: var(--wp--preset--color--base); color: var(--wp--preset--color--contrast); }",
+				"css": " & .is-style-fill .wp-block-button__link { background-color: var(--wp--preset--color--base); color: var(--wp--preset--color--contrast); }",
 				"elements": {
 					"link": {
 						"color": {
