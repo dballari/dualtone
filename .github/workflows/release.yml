@@ -24,11 +24,8 @@ jobs:
       - name: List files to verify submodules
         run: ls -R
 
-      - name: Create zip with submodules
-        run: zip -r release.zip . -x '*.git*'
-
       - name: Upload Release Artifact
         uses: actions/upload-artifact@v4
         with:
           name: release
-          path: release.zip
+          path: .
