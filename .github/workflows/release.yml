@@ -27,5 +27,5 @@ jobs:
       - name: Upload Release Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: release
+          name: ${{ github.event.repository.name }}-${{ github.ref_name }}
           path: .
