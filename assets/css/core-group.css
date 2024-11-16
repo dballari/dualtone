@@ -33,6 +33,13 @@
 
 .wp-block-group.is-style-aborder {
     border: 1px solid var(--wp--preset--color--accent);
-    border-radius: 4px;
-    padding: var(--wp--preset--spacing--025) var(--wp--preset--spacing--050);
+    border-radius: 6px;
+    padding: var(--wp--preset--spacing--050) var(--wp--preset--spacing--10);
+}
+
+.wp-block-group.is-style-width3 > .wp-block-group.is-style-section-1,
+.wp-block-group.is-style-width3 > .wp-block-group.is-style-section-2,
+.wp-block-group.is-style-width4 > .wp-block-group.is-style-section-1,
+.wp-block-group.is-style-width4 > .wp-block-group.is-style-section-2 {
+    border-radius: 6px;
 }

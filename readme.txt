@@ -11,9 +11,15 @@ A block editor WordPress theme based on user patterns—for creators.
 
 == Description ==
 
-DualTone is a two column layout blog with sticky sidebar on the left, as a tribute to b2/cafelog, the origins of WordPress more than 21 years ago, which is also a two column layout blog. It features a content wide page template for legal text, a blank template for creating any type of content layout and several custom block style variations. With a simple and clean design, it lets your readers focus on your content. Includes several theme styles, a light one (the default one) and a dark one (the futuristic dark style) and some more. Two block sections have been added with contrast and accent color backgrounds. It includes a settings page with some pattern options. It works with WordPress 6.7.
+DualTone is a two column layout blog with sticky sidebar on the left, as a tribute to b2/cafelog, the origins of WordPress more than 21 years ago, which is also a two column layout blog. It features a content wide page template for legal text, a blank template for creating any type of content layout and several custom block style variations. With a simple and clean design, it lets your readers focus on your content. Includes several theme styles, a light one (the default one) and a dark one (the futuristic dark style) and some more. Two block sections have been added with contrast and accent color backgrounds. It includes a settings page with some pattern options. It works with WordPress 6.7. Last but not least, check the theme homepage to access a playground demo with the complete demo site content.
 
 == Changelog ==
+
+= 1.0.1 =
+* add border radius to sections to match accent border style variation
+* width3 block style variation
+* added details to descriptions
+* downgrade php version to make it compatible with WordPress theme preview
 
 = 1.0.0 =
 * update description
