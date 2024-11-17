@@ -17,6 +17,12 @@
             }
         },
         "blocks": {
+            "core/button": {
+                "color": {
+                    "text": "var(--wp--custom--color--button-default-text)",
+                    "background": "var(--wp--custom--color--button-default)"
+                }
+            },
             "core/cover": {
                 "color": {
                     "text": "var(--wp--custom--color--text-accent-section)"
