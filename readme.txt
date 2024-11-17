@@ -16,6 +16,7 @@ DualTone is a two column layout blog with sticky sidebar on the left, as a tribu
 == Changelog ==
 
 = 1.0.1 =
+* add dualtone logo in svg format
 * add border radius to sections to match accent border style variation
 * width3 block style variation
 * added details to descriptions
@@ -153,3 +154,5 @@ https://flic.kr/p/2pQKXhd
 https://flic.kr/p/2pQSm9W
 https://flic.kr/p/M4D9vb
 -- End of Media blocs images credits --
+
+DualTone logo designed by dballari under GPL v2 License

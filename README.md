@@ -13,7 +13,7 @@ You can access the DualTone demo sites from the [DualTone home](https://ballarin
 
 ## License
 
-- GPL v2
+- GPL v2 (including DualTone logo)
 
 ## Additional documentations
 
