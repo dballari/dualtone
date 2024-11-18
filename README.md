@@ -9,7 +9,7 @@ You can access the DualTone demo sites from the [DualTone home](https://ballarin
 ## Requirements
 
 - WordPress 6.7+
-- PHP 8.3+
+- PHP 8.0+
 
 ## License
 
