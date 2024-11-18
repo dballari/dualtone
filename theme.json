@@ -516,12 +516,12 @@
     },
     "templateParts": [
         {
-            "area": "header",
+            "area": "topbar",
             "name": "top-bar",
             "title": "Top bar"
         },
         {
-            "area": "sidebar",
+            "area": "header",
             "name": "sidebar-header",
             "title": "Sidebar header"
         },

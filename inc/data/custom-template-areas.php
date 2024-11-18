@@ -14,10 +14,18 @@
 
  $areas = [
     [
+        'area' => 'topbar',
+        'area_tag' => 'header',
+        'label' => __( 'Topbar', 'dualtone' ),
+        'description' => __( 'Area to place top bar or banners',
+            'dualtone' ),
+        'icon' => 'sidebar'
+    ],
+    [
         'area' => 'sidebar',
         'area_tag' => 'aside',
         'label' => __( 'Sidebar', 'dualtone' ),
-        'description' => __( 'Secondary area where logo, site title and navigation could be moved to on a multiple column layout page.',
+        'description' => __( 'Secondary area where additional content to the header may be placed',
             'dualtone' ),
         'icon' => 'sidebar'
     ],

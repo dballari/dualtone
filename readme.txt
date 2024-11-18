@@ -16,6 +16,7 @@ DualTone is a two column layout blog with sticky sidebar on the left, as a tribu
 == Changelog ==
 
 = 1.0.1 =
+* include three sidebar menu header template part patterns with dark variation also
 * change color and increase border of highlight-parts
 * fix button colors in section-1
 * add dualtone logo in svg format

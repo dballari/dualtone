@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: Sidebar demo menu
- * Slug: dualtone/sidebar-menu-with-search-categories-and-tags
+ * Title: Sidebar demo menu dark
+ * Slug: dualtone/sidebar-menu-with-search-categories-and-tags-dark
  * Categories: header
  * Block Types: core/template-part/header
  * Viewport Width: 260
@@ -12,7 +12,7 @@
 <aside class="wp-block-group"><!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"center"}} -->
 <div class="wp-block-group">
 <!-- wp:image {"align":"center","width":40,"height":40,"sizeSlug":"full","linkDestination":"custom"} -->
-<figure class="wp-block-image aligncenter size-full is-resized"><a href="#"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/dualtone-logo.svg'; ?>" alt="DualTone site logo" width="40" height="40"/></a></figure>
+<figure class="wp-block-image aligncenter size-full is-resized"><a href="#"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/dualtone-logo-futuristicdark.svg'; ?>" alt="DualTone site logo" width="40" height="40"/></a></figure>
 <!-- /wp:image -->
 <!-- wp:site-title {"fontSize":"large"} /--></div>
 <!-- /wp:group -->
