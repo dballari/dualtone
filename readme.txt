@@ -11,11 +11,15 @@ A block editor WordPress theme based on user patterns—for creators.
 
 == Description ==
 
-DualTone is a two column layout blog with sticky sidebar on the left, as a tribute to b2/cafelog, the origins of WordPress more than 21 years ago, which is also a two column layout blog. It features a content wide page template for legal text, a blank template for creating any type of content layout and several custom block style variations. With a simple and clean design, it lets your readers focus on your content. Includes several theme styles, a light one (the default one) and a dark one (the futuristic dark style) and some more. Two block sections have been added with contrast and accent color backgrounds. It includes a settings page with some pattern options. It works with WordPress 6.7. Last but not least, check the theme homepage to access a playground demo with the complete demo site content.
+DualTone is a block-based WordPress theme featuring a two-column layout with a sticky sidebar on the left, inspired by b2/cafelog, the origins of WordPress over 21 years ago. 
+It includes a full-width page template for legal content, a blank template for flexible layouts, and several custom block style variations. 
+With a clean and simple design, it helps readers focus on your content. DualTone comes with multiple styles, including a light default and a futuristic dark style, plus additional accent sections. 
+A settings page allows customization of block patterns. Works with WordPress 6.7.
 
 == Changelog ==
 
 = 1.0.1 =
+* Final release before theme retirement from WordPress.org.
 * include three sidebar menu header template part patterns with dark variation also
 * change color and increase border of highlight-parts
 * fix button colors in section-1
@@ -116,9 +120,14 @@ DualTone is a two column layout blog with sticky sidebar on the left, as a tribu
 = 0.8.1 =
 * almost ready to release
 
+== Demo ==
+
+The live demo has been temporarily removed. Full access to the theme's source code is available here:
+https://github.com/dballari/dualtone
+
 == Copyright ==
 
-DualTone WordPress Theme, (C) 2024 David Ballarin Prunera
+DualTone WordPress Theme, © 2024 David Ballarin Prunera
 DualTone is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify
@@ -138,24 +147,24 @@ Copyright 2020 The Inter Project Authors (https://github.com/rsms/inter)
 This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL 
 License URL: http://scripts.sil.org/OFL 
 Source: https://rsms.me/
--- End of Inter Font credits --
+-- End of credits --
 
 Zen Dots Font
 Copyright 2020 The Zen Dots Project Authors (https://github.com/googlefonts/zen-dots) 
 This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL 
 License URL: http://scripts.sil.org/OFL 
 Source: https://rsms.me/
--- End of Zen Dots Font credits --
+-- End of credits --
 
 Error 404 image is a public domain
 https://www.flickr.com/photos/116071498@N08/38683650625
 https://openverse.org/image/8db4d0b1-cfb9-4f65-ae6c-119e2ed4ad92?q=disaster
--- End of Error 404 image credits --
+-- End of credits --
 
 Images as example of Media Blocks are public domain images
 https://flic.kr/p/2pQKXhd
 https://flic.kr/p/2pQSm9W
 https://flic.kr/p/M4D9vb
--- End of Media blocs images credits --
+-- End of credits --
 
 DualTone logo designed by dballari under GPL v2 License
