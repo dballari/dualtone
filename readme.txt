@@ -18,6 +18,9 @@ A settings page allows customization of block patterns. Works with WordPress 6.7
 
 == Changelog ==
 
+= 1.0.2 =
+* Update version after final release before theme retirement from WordPress.org.
+
 = 1.0.1 =
 * Final release before theme retirement from WordPress.org.
 * include three sidebar menu header template part patterns with dark variation also
